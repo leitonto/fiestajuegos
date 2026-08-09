@@ -1,0 +1,63 @@
+{
+  "nombre": "El Imitador",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 14,
+    "alSuperarMaximo": "correr dos imitaciones en paralelo (dos \"escenarios\" a la vez, cada uno con su propio público) en vez de una sola ronda secuencial."
+  },
+  "materiales": "ninguno (o celular para asignar el personaje en privado).",
+  "duracionEstimada": "15–25 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cumpleanos",
+    "despedida-de-soltero",
+    "reunion-familiar"
+  ],
+  "reglas": [
+    "Se asigna en secreto un personaje a imitar.",
+    "El jugador actúa un mini-reto o escena breve interpretando ese personaje mientras el resto adivina de quién o qué se trata.",
+    "Quien adivina primero suma un punto.",
+    "Quien no logra que lo identifiquen bebe o cumple prenda.",
+    "Se rota el turno."
+  ],
+  "variantes": [
+    {
+      "nombre": "Imitador de Famosos (base)",
+      "descripcion": "el personaje es una celebridad o arquetipo conocido, no alguien del grupo."
+    },
+    {
+      "nombre": "Modo Espejo",
+      "descripcion": "dos jugadores imitan la misma consigna sin verse entre sí; el grupo vota cuál fue más fiel, y quien pierde la votación cumple la consecuencia."
+    },
+    {
+      "nombre": "Imitador del Grupo",
+      "descripcion": "en vez de una celebridad, se imita —con cariño, sin burla hiriente— a otra persona presente en la fiesta, y el resto adivina de quién se trata."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "El Imitador: juego de roleplay y adivinanza para fiestas",
+    "metaDescripcion": "Cómo jugar El Imitador: actuá un personaje y que el grupo adivine quién es. Incluye modo celebridades y modo grupo (con recomendación de uso).",
+    "keywordObjetivo": "juego el imitador roleplay para fiesta",
+    "preguntaAIOverview": "¿Cómo se juega El Imitador imitando personajes?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Hay que imitar a alguien del grupo?",
+      "respuesta": "No es obligatorio — la versión base usa celebridades o arquetipos; imitar a alguien presente es una variante opcional."
+    },
+    {
+      "pregunta": "¿Es apto para grupos que recién se conocen?",
+      "respuesta": "La variante \"Imitador del Grupo\" se recomienda solo entre personas con confianza previa; para grupos nuevos, mejor usar \"Imitador de Famosos\"."
+    }
+  ],
+  "bancoContenido": "propio"
+}

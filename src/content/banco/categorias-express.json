@@ -1,0 +1,39 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "suave": [
+      "Países",
+      "Frutas",
+      "Colores",
+      "Animales",
+      "Cosas que hay en una cocina",
+      "Marcas de ropa",
+      "Deportes",
+      "Bebidas",
+      "Flores",
+      "Juguetes de la infancia",
+      "Instrumentos de cocina",
+      "Programas de televisión",
+      "Postres",
+      "Medios de transporte",
+      "Días festivos"
+    ],
+    "normal": [
+      "Series de streaming",
+      "Ciudades del mundo",
+      "Marcas de autos",
+      "Instrumentos musicales",
+      "Personajes animados",
+      "Monedas de distintos países",
+      "Razas de perros",
+      "Superhéroes",
+      "Videojuegos",
+      "Marcas de celulares",
+      "Cadenas de comida rápida",
+      "Bandas o cantantes",
+      "Redes sociales",
+      "Aplicaciones de celular",
+      "Capitales de países"
+    ]
+  }
+}

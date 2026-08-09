@@ -1,0 +1,54 @@
+{
+  "nombre": "Confesiones Anónimas",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 5,
+    "ideal": "8",
+    "maximo": 20,
+    "alSuperarMaximo": "mostrar solo una selección aleatoria de confesiones por ronda, no todas, para no hacer la sesión demasiado larga."
+  },
+  "materiales": "un celular (usa la mecánica de Modo Urna, #13).",
+  "duracionEstimada": "20–30 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Cada jugador escribe en privado (Modo Urna) un dato curioso o anécdota propia, sin firmar.",
+    "Las confesiones se leen en voz alta una por una.",
+    "El grupo intenta adivinar de quién es cada una.",
+    "El autor puede confirmar o no al final de cada ronda."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Temática fija por ronda (ej. \"algo vergonzoso de la infancia\")."
+    },
+    {
+      "nombre": "Modo sin revelar",
+      "descripcion": "nunca se confirma el autor, queda el misterio."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Confesiones Anónimas: juego de adivinar anécdotas del grupo",
+    "metaDescripcion": "Cómo jugar Confesiones Anónimas: escribí una anécdota en privado y que el grupo adivine de quién es. Sin alcohol, apto para todos.",
+    "keywordObjetivo": "juego de confesiones anonimas para grupo",
+    "preguntaAIOverview": "¿Cómo se juega a las confesiones anónimas en grupo?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es obligatorio revelar quién escribió qué?",
+      "respuesta": "No, existe una variante donde el autor nunca se confirma."
+    },
+    {
+      "pregunta": "¿Es apto para reuniones familiares?",
+      "respuesta": "Sí, es un juego 100% sin alcohol y de contenido liviano por defecto."
+    }
+  ],
+  "bancoContenido": "propio"
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Modo Urna",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "8",
+    "maximo": 20,
+    "alSuperarMaximo": "no hay penitencia que ajustar (es un mecanismo de recolección, no de consecuencia); simplemente toma más tiempo pasar el celular por todos. Se puede fijar un límite de tiempo por persona para acelerar la recolección."
+  },
+  "materiales": "un celular.",
+  "duracionEstimada": "5–10 min para la ronda de recolección, más el tiempo variable del juego que lo use.",
+  "intensidad": [],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [],
+  "reglas": [
+    "El celular pasa de mano en mano.",
+    "Cada jugador, tapando la pantalla del resto, ingresa su respuesta a la pregunta o consigna activa.",
+    "Devuelve el celular al anfitrión sin que nadie más vea su respuesta.",
+    "Nadie ve las respuestas ajenas hasta que todas estén cargadas.",
+    "Al final, la app revela todas las respuestas juntas (de forma anónima o atribuida, según configure el juego anfitrión)."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Revelado anónimo vs. revelado atribuido."
+    },
+    {
+      "descripcion": "Con límite de tiempo por persona vs. sin límite."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Modo Urna: voto secreto con un solo celular para juegos de fiesta",
+    "metaDescripcion": "Cómo funciona el Modo Urna: cada jugador responde en privado con un solo celular, sin apps extra ni cuentas.",
+    "keywordObjetivo": "voto secreto para juegos de fiesta con un celular",
+    "preguntaAIOverview": "¿Cómo se hace una votación secreta en una fiesta con un solo celular?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Necesito varios celulares?",
+      "respuesta": "No, la mecánica está pensada para usar uno solo, pasado en ronda."
+    },
+    {
+      "pregunta": "¿Se puede saber quién respondió qué?",
+      "respuesta": "Depende de la configuración del juego que lo use — puede ser anónimo o atribuido."
+    }
+  ],
+  "bancoContenido": "ninguno"
+}

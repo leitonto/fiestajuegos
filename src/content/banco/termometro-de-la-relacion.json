@@ -1,0 +1,33 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "suave": [
+      "\"Es más importante gastar en experiencias que en cosas materiales.\"",
+      "\"Las mascotas son parte de la familia, no solo animales de compañía.\"",
+      "\"Un buen fin de semana es sin planes, no con una agenda llena.\"",
+      "\"Cocinar en casa es mejor plan que salir a comer afuera.\"",
+      "\"Los cumpleaños hay que festejarlos siempre, aunque sea algo chico.\"",
+      "\"Viajar sin planificar nada es más divertido que armar un itinerario.\"",
+      "\"Es mejor decir lo que uno piensa aunque incomode, a quedarse callado para evitar el conflicto.\"",
+      "\"El desorden de uno no debería molestar tanto al otro.\"",
+      "\"Las tradiciones familiares hay que mantenerlas, aunque cambien los tiempos.\"",
+      "\"Es mejor ahorrar para el futuro que disfrutar más el presente.\"",
+      "\"Un buen regalo dice más que mil palabras de cariño.\"",
+      "\"Está bien tener amigos que el otro no conoce del todo.\""
+    ],
+    "normal": [
+      "\"Está bien mantener amistad con ex parejas.\"",
+      "\"Las redes sociales de la pareja deberían ser un libro abierto para el otro.\"",
+      "\"Es normal necesitar espacio propio, incluso yéndose de viaje sin el otro.\"",
+      "\"El dinero debería manejarse en conjunto desde el principio de la relación.\"",
+      "\"Mudarse juntos antes de formalizar es una buena idea.\"",
+      "\"Discutir frente a otras personas está bien si surge naturalmente.\"",
+      "\"Es importante que la familia del otro apruebe la relación.\"",
+      "\"Uno debería poder cambiar de opinión sobre tener hijos, incluso años después.\"",
+      "\"Está bien que cada uno tenga su propia cuenta bancaria, aunque compartan gastos.\"",
+      "\"Casarse no debería ser una meta necesaria si la relación funciona bien igual.\"",
+      "\"Es sano que cada uno mantenga hobbies separados, sin hacer todo juntos.\"",
+      "\"Una pelea fuerte de vez en cuando es normal y hasta sana para la relación.\""
+    ]
+  }
+}

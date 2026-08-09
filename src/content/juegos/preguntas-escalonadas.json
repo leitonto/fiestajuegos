@@ -1,0 +1,50 @@
+{
+  "nombre": "Preguntas Escalonadas",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "banco de preguntas (app).",
+  "duracionEstimada": "15–30 min.",
+  "intensidad": [],
+  "intensidadEscala": true,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Se turnan para sacar preguntas de un banco que empieza liviano y sube de intensidad a medida que avanza la partida.",
+    "Cada uno responde con honestidad.",
+    "Se puede \"pasar\" una pregunta pagando una consecuencia acordada de antemano.",
+    "La partida continúa hasta agotar el banco o decidir parar."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Ritmo de escalada ajustable (rápido o lento)."
+    },
+    {
+      "descripcion": "Banco separado para parejas nuevas vs. parejas consolidadas."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Preguntas Escalonadas: el juego de preguntas para parejas que sube de intensidad",
+    "metaDescripcion": "Cómo jugar Preguntas Escalonadas: de lo liviano a lo íntimo, a tu ritmo. Ideal para citas y parejas consolidadas.",
+    "keywordObjetivo": "preguntas para parejas subir de intensidad juego",
+    "preguntaAIOverview": "¿Qué preguntas hacer en pareja para conocerse mejor?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Se puede saltar una pregunta?",
+      "respuesta": "Sí, pagando una consecuencia acordada antes de empezar."
+    },
+    {
+      "pregunta": "¿Hay diferencia entre parejas nuevas y consolidadas?",
+      "respuesta": "Sí, existen bancos de preguntas separados según el tipo de relación."
+    }
+  ],
+  "bancoContenido": "propio"
+}

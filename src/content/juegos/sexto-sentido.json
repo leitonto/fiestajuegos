@@ -1,0 +1,62 @@
+{
+  "nombre": "Sexto Sentido",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "5",
+    "maximo": 8,
+    "alSuperarMaximo": "dividir en 2 grupos que compiten por ver cuál logra la secuencia completa primero, en vez de intentarlo como un solo grupo gigante (con muchas personas es casi imposible sincronizar sin hablar)."
+  },
+  "materiales": "ninguno (o celular para asignar números/posiciones en privado).",
+  "duracionEstimada": "10–20 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "previa",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Cada jugador recibe en privado un número secreto (o se ubica en una posición secreta de un ranking personal, en la variante sin alcohol).",
+    "Sin hablar ni hacer señas explícitas, el grupo debe \"jugar\" sus números en orden ascendente.",
+    "Cada uno confía en su intuición sobre cuándo le toca, sin confirmación verbal.",
+    "Si dos jugadores intentan jugar fuera de orden, se rompe la secuencia y hay penalización grupal.",
+    "Se repite con una nueva ronda de números."
+  ],
+  "variantes": [
+    {
+      "nombre": "Posta de Tragos",
+      "descripcion": "los números representan cantidad de tragos (1–8)."
+    },
+    {
+      "nombre": "Categoría Secreta (sin alcohol)",
+      "descripcion": "en vez de números, cada uno se ubica en una posición secreta de un ranking personal (ej. \"quién se despierta más temprano\"), ordenándose en silencio alzando la mano."
+    },
+    {
+      "nombre": "Ronda Corta",
+      "descripcion": "secuencias de 3–4 en vez de la ronda completa, más ágil para el ritmo de una fiesta."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Sexto Sentido: el juego de fiesta para ordenarse en silencio, sin hablar",
+    "metaDescripcion": "Cómo jugar Sexto Sentido: hay que ordenarse en silencio siguiendo la intuición del grupo. Incluye versión con tragos y versión familiar con ranking secreto.",
+    "keywordObjetivo": "juego sin hablar para beber en grupo",
+    "preguntaAIOverview": "¿Cómo se juega un juego de fiesta en silencio, sin hablar?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Se puede jugar sin alcohol?",
+      "respuesta": "Sí, con la variante Categoría Secreta, que usa un ranking personal en vez de tragos."
+    },
+    {
+      "pregunta": "¿Qué pasa si se rompe el orden?",
+      "respuesta": "Hay una penalización grupal (todos beben o cumplen prenda) y se reinicia la secuencia."
+    }
+  ],
+  "bancoContenido": "propio"
+}

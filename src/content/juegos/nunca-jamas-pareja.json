@@ -1,0 +1,55 @@
+{
+  "nombre": "Nunca Jamás — Versión Pareja",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "ninguno.",
+  "duracionEstimada": "15–25 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Por turnos, cada uno dice algo que \"nunca ha hecho\", enfocado en el historial compartido de la pareja (no genérico).",
+    "Si el otro sí lo hizo, bebe o cumple prenda.",
+    "Si ninguno lo hizo, no pasa nada y sigue el turno.",
+    "Se repite alternando turnos."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Banco de frases sugeridas para quienes no se les ocurre qué decir."
+    },
+    {
+      "nombre": "Modo confesión",
+      "descripcion": "frases más íntimas, intensidad Picante."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Nunca Jamás para parejas: versión con historial compartido",
+    "metaDescripcion": "Reglas de Nunca Jamás en pareja: descubrí cosas del pasado compartido que quizás no sabías. Con banco de frases sugeridas.",
+    "keywordObjetivo": "nunca nunca para parejas preguntas",
+    "preguntaAIOverview": "¿Cómo se juega Nunca Nunca en pareja?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es distinto al Nunca Nunca clásico?",
+      "respuesta": "Sí, esta versión se enfoca en el historial compartido de la pareja, no en experiencias genéricas."
+    },
+    {
+      "pregunta": "¿Hay versión sin alcohol?",
+      "respuesta": "Sí, la consecuencia puede reemplazarse por una prenda."
+    }
+  ],
+  "bancoContenido": "propio"
+}

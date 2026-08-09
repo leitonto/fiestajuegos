@@ -1,0 +1,107 @@
+[
+  {
+    "id": "previa",
+    "nombre": "Previa",
+    "icono": "ti-door-exit",
+    "keywordPilar": "juegos para la previa",
+    "juegosAncla": [
+      "verdad-reto-o-bebe",
+      "categorias-express",
+      "encadenados",
+      "sexto-sentido",
+      "bomba-con-retos",
+      "duelo-relampago"
+    ]
+  },
+  {
+    "id": "cumpleanos",
+    "nombre": "Cumpleaños",
+    "icono": "ti-cake",
+    "keywordPilar": "juegos para cumpleaños",
+    "juegosAncla": [
+      "verdad-reto-o-bebe",
+      "el-impostor",
+      "torneo-de-la-noche",
+      "bomba-con-retos",
+      "rey-de-copas",
+      "la-mentira-perfecta",
+      "charadas-tematicas",
+      "encuesta-en-vivo"
+    ]
+  },
+  {
+    "id": "reunion-familiar",
+    "nombre": "Reunión familiar",
+    "icono": "ti-home",
+    "keywordPilar": "juegos para reunión familiar sin alcohol",
+    "juegosAncla": [
+      "charadas-tematicas",
+      "trivia-relampago",
+      "confesiones-anonimas",
+      "desafio-fisico-grupal",
+      "dibuja-y-adivina",
+      "el-detective-de-la-mesa",
+      "cadena-de-cumplidos",
+      "el-traductor",
+      "el-rumor",
+      "mimica-relampago",
+      "categorias-express",
+      "encadenados",
+      "el-imitador",
+      "torre-de-retos"
+    ]
+  },
+  {
+    "id": "cita",
+    "nombre": "Cita",
+    "icono": "ti-heart",
+    "keywordPilar": "juegos para parejas",
+    "juegosAncla": [
+      "sincronia",
+      "nunca-jamas-pareja",
+      "preguntas-escalonadas",
+      "el-mapa-del-cuerpo",
+      "termometro-de-la-relacion",
+      "objetos-con-historia",
+      "el-contrato"
+    ]
+  },
+  {
+    "id": "despedida-de-soltero",
+    "nombre": "Despedida de soltero/a",
+    "icono": "ti-confetti",
+    "keywordPilar": "juegos para despedida de soltera",
+    "juegosAncla": [
+      "verdad-reto-o-bebe",
+      "quien-es-mas-probable",
+      "el-impostor",
+      "encuesta-en-vivo",
+      "el-imitador",
+      "la-mentira-perfecta",
+      "duelo-relampago",
+      "torneo-de-la-noche",
+      "ruleta-de-shots",
+      "rey-de-copas",
+      "maraton-de-tragos"
+    ]
+  },
+  {
+    "id": "afterwork",
+    "nombre": "Afterwork/oficina",
+    "icono": "ti-briefcase",
+    "keywordPilar": "dinámicas para after office",
+    "juegosAncla": [
+      "quien-es-mas-probable",
+      "categorias-express",
+      "encadenados",
+      "mimica-relampago",
+      "el-impostor",
+      "el-traductor",
+      "la-mentira-perfecta",
+      "trivia-relampago",
+      "desafio-fisico-grupal",
+      "dibuja-y-adivina",
+      "cadena-de-cumplidos"
+    ]
+  }
+]

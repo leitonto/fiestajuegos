@@ -1,0 +1,54 @@
+{
+  "nombre": "Charadas Temáticas",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 20,
+    "alSuperarMaximo": "más equipos pequeños jugando en paralelo, cada uno con su propio mazo temático, comparando puntajes al final."
+  },
+  "materiales": "banco de temas (app) — mazos temáticos por categoría (Navidad, películas, animales, etc.).",
+  "duracionEstimada": "20–30 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Se forman equipos.",
+    "Un integrante actúa una palabra o concepto del mazo temático elegido, sin hablar.",
+    "Su equipo adivina dentro del tiempo límite.",
+    "Se suman puntos por cada acierto.",
+    "Gana el equipo con más puntos al final de la ronda pactada."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Mazos estacionales (Navidad, San Valentín, etc.)."
+    },
+    {
+      "descripcion": "Mazo personalizable por el anfitrión."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Charadas Temáticas: mímica por equipos para toda la familia",
+    "metaDescripcion": "Cómo jugar Charadas Temáticas: mazos por categoría (películas, animales, fechas especiales) para jugar en familia.",
+    "keywordObjetivo": "charadas para toda la familia temas",
+    "preguntaAIOverview": "¿Qué son las charadas y cómo se juegan en familia?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Hay mazos temáticos de fechas especiales?",
+      "respuesta": "Sí, existen mazos estacionales como Navidad y San Valentín."
+    },
+    {
+      "pregunta": "¿Es apto para niños?",
+      "respuesta": "Sí, el contenido está pensado para todo público desde el diseño del banco de palabras."
+    }
+  ],
+  "bancoContenido": "propio"
+}

@@ -1,0 +1,39 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "suave": [
+      "Bailar como si no hubiera nadie mirando.",
+      "Un gato subiendo a un árbol.",
+      "Comer un helado que gotea por todos lados.",
+      "Un superhéroe salvando el día en cámara lenta.",
+      "Buscar desesperadamente las llaves perdidas.",
+      "Un pingüino caminando sobre hielo resbaladizo.",
+      "Armar una carpa de camping que no coopera.",
+      "Un mago haciendo un truco que sale mal.",
+      "Sacarse la foto perfecta para las redes.",
+      "Un robot quedándose sin batería a mitad de frase.",
+      "Un chef probando una sopa demasiado caliente.",
+      "Un perro persiguiendo su propia cola.",
+      "Alguien tratando de abrir un paraguas roto.",
+      "Un astronauta flotando sin gravedad.",
+      "Alguien intentando no reírse en un funeral de mentira."
+    ],
+    "normal": [
+      "El vecino se olvidó las llaves adentro, otra vez.",
+      "Alguien baila espantoso a propósito en una boda.",
+      "El perro se comió la tarea, literalmente.",
+      "Un influencer arruina su propio video en vivo.",
+      "Alguien mintiendo muy, muy mal.",
+      "El profesor se quedó dormido en su propia clase.",
+      "Un turista perdido pide direcciones en otro idioma.",
+      "Alguien finge que le encantó un regalo horrible.",
+      "El invitado que llegó tres horas tarde a la fiesta.",
+      "Alguien no recuerda el nombre de quien ya saludó dos veces.",
+      "El jefe manda un mensaje al grupo equivocado.",
+      "Alguien se queda dormido en una videollamada de trabajo.",
+      "El mesero confunde todos los pedidos de la mesa.",
+      "Alguien inventa una excusa cada vez más ridícula para llegar tarde.",
+      "El invitado que come toda la comida antes de que lleguen los demás."
+    ]
+  }
+}

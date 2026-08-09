@@ -1,0 +1,39 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "suave": [
+      "Animales",
+      "Países",
+      "Comidas",
+      "Nombres propios",
+      "Ciudades",
+      "Objetos de la casa",
+      "Frutas",
+      "Colores",
+      "Ropa",
+      "Juguetes",
+      "Deportes",
+      "Bebidas",
+      "Flores",
+      "Muebles",
+      "Útiles escolares"
+    ],
+    "normal": [
+      "Profesiones",
+      "Marcas",
+      "Deportes",
+      "Personajes famosos",
+      "Películas",
+      "Colores",
+      "Series de TV",
+      "Instrumentos musicales",
+      "Videojuegos",
+      "Cantantes o bandas",
+      "Ciudades del mundo",
+      "Marcas de ropa",
+      "Comida rápida",
+      "Redes sociales",
+      "Superhéroes"
+    ]
+  }
+}

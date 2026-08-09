@@ -1,0 +1,58 @@
+{
+  "nombre": "Encadenados",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "6",
+    "maximo": 12,
+    "alSuperarMaximo": "acortar el tiempo de respuesta, o jugar por eliminación progresiva (quien falla sale de esa ronda) para no hacerla demasiado larga."
+  },
+  "materiales": "ninguno.",
+  "duracionEstimada": "10–15 min.",
+  "intensidad": [
+    "suave",
+    "normal"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "reunion-familiar",
+    "afterwork",
+    "previa"
+  ],
+  "reglas": [
+    "Se define una categoría de palabras.",
+    "El primer jugador dice una palabra de esa categoría.",
+    "El siguiente debe decir otra palabra de la misma categoría que empiece con la última letra de la anterior.",
+    "Quien duda más de lo permitido, repite palabra o rompe la categoría, bebe o cumple prenda.",
+    "El juego continúa con el jugador siguiente."
+  ],
+  "variantes": [
+    {
+      "nombre": "Sin categoría",
+      "descripcion": "cualquier palabra vale, más difícil de encadenar."
+    },
+    {
+      "nombre": "Modo nombres propios",
+      "descripcion": "solo nombres de personas famosas."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Encadenados: juego de palabras en cadena para jugar en grupo",
+    "metaDescripcion": "Cómo jugar Encadenados: reglas del juego de palabras por categoría y última letra, con variantes para subir la dificultad.",
+    "keywordObjetivo": "juego de palabras encadenadas para fiesta",
+    "preguntaAIOverview": "¿Cómo se juega el juego de las palabras encadenadas?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si a nadie se le ocurre una palabra?",
+      "respuesta": "Todos los que se traban en esa vuelta cumplen la consecuencia."
+    },
+    {
+      "pregunta": "¿Se puede jugar en equipos?",
+      "respuesta": "Sí, funciona igual turnando por equipo en vez de por persona."
+    }
+  ],
+  "bancoContenido": "propio"
+}

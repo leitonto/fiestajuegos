@@ -1,0 +1,56 @@
+{
+  "nombre": "Dibuja y Adivina",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 20,
+    "alSuperarMaximo": "más equipos jugando en paralelo, cada uno con su propia hoja/pizarra y palabra."
+  },
+  "materiales": "papel y lápiz o pizarra (no requiere celular, aunque la app puede sugerir palabras).",
+  "duracionEstimada": "20–30 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar",
+    "afterwork",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Se forman equipos.",
+    "Un integrante dibuja una palabra del banco, sin usar letras ni números.",
+    "Su equipo adivina dentro del tiempo límite.",
+    "Se suman puntos por acierto y se rota el rol de dibujante."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Mazo temático (igual que Charadas Temáticas, #28)."
+    },
+    {
+      "nombre": "Modo simultáneo",
+      "descripcion": "todos dibujan la misma palabra a la vez y se comparan los resultados."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Dibuja y Adivina: juego de dibujo por equipos para toda la familia",
+    "metaDescripcion": "Cómo jugar Dibuja y Adivina: dibujá la palabra sin letras ni números y que tu equipo la adivine a tiempo.",
+    "keywordObjetivo": "juego de dibujar y adivinar para familia",
+    "preguntaAIOverview": "¿Cómo se juega a dibujar y adivinar en equipos?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Necesito materiales especiales?",
+      "respuesta": "Solo papel y lápiz, o una pizarra si tenés una a mano."
+    },
+    {
+      "pregunta": "¿Hay palabras para niños?",
+      "respuesta": "Sí, el banco incluye un mazo temático apto para todas las edades."
+    }
+  ],
+  "bancoContenido": "compartido",
+  "bancoContenidoRef": "charadas-tematicas"
+}

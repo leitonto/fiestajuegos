@@ -1,0 +1,53 @@
+{
+  "nombre": "Objetos con Historia",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "un objeto compartido con significado, elegido por la pareja (no provisto por la app).",
+  "duracionEstimada": "10–15 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Uno de los dos cuenta la historia de un objeto que tienen en común, dentro de un tiempo límite (ej. 60 segundos).",
+    "El otro suma un detalle que recuerde o que el primero haya omitido.",
+    "Se turnan con otro objeto.",
+    "Se repite mientras el grupo quiera continuar."
+  ],
+  "variantes": [
+    {
+      "nombre": "Objeto sorpresa",
+      "descripcion": "elegido al azar de una lista de categorías (ej. \"el primer regalo que se dieron\")."
+    },
+    {
+      "descripcion": "Versión grupal (arriba)."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Objetos con Historia: juego de conversación para parejas",
+    "metaDescripcion": "Cómo jugar Objetos con Historia: recuerden juntos la historia de un objeto compartido. Ideal para aniversarios y citas.",
+    "keywordObjetivo": "juego de conversacion para parejas recordar momentos",
+    "preguntaAIOverview": "¿Qué juegos de conversación hay para parejas sin alcohol?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Necesito un objeto específico?",
+      "respuesta": "Cualquier objeto con significado compartido sirve; también existe la variante \"objeto sorpresa\"."
+    },
+    {
+      "pregunta": "¿Es un juego con alcohol?",
+      "respuesta": "No, está diseñado como dinámica de conversación, sin consecuencia de trago."
+    }
+  ],
+  "bancoContenido": "propio"
+}

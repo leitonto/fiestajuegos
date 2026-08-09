@@ -1,0 +1,19 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "todos": [
+      "¿Quién se despierta más temprano en su rutina normal?",
+      "¿Quién tarda más en arreglarse antes de salir?",
+      "¿Quién aguanta menos tiempo sin mirar el celular?",
+      "¿Quién es más de planear todo con anticipación, en vez de improvisar?",
+      "¿Quién gasta más en comida a la semana?",
+      "¿Quién se pone más nervioso antes de hablar en público?",
+      "¿Quién tiene más paciencia en una fila larga?",
+      "¿Quién tarda más en responder un mensaje de WhatsApp?",
+      "¿Quién duerme menos horas por noche, en promedio?",
+      "¿Quién es más ordenado con su ropa?",
+      "¿Quién revisa más seguido el clima antes de salir?",
+      "¿Quién tarda más en decidir qué pedir en un restaurante?"
+    ]
+  }
+}

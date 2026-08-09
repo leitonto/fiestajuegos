@@ -1,0 +1,59 @@
+{
+  "nombre": "El Impostor",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 15,
+    "alSuperarMaximo": "usar 2 impostores en vez de 1 para mantener el ritmo y no alargar demasiado la fase de pistas."
+  },
+  "materiales": "ninguno (o celular para asignar el rol en privado, vía Modo Urna).",
+  "duracionEstimada": "15–25 min por ronda.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cumpleanos",
+    "despedida-de-soltero",
+    "afterwork"
+  ],
+  "reglas": [
+    "Todos reciben la misma palabra o tema en privado, excepto un jugador (el impostor), que no la conoce.",
+    "Por turnos, cada uno da una pista relacionada con la palabra sin decirla directamente.",
+    "Tras una vuelta completa de pistas, el grupo vota en conjunto quién cree que es el impostor.",
+    "Si aciertan, el impostor bebe o cumple prenda.",
+    "Si el impostor logra adivinar la palabra secreta antes de ser descubierto, se salva y el resto cumple la consecuencia."
+  ],
+  "variantes": [
+    {
+      "nombre": "Impostor doble",
+      "descripcion": "dos impostores que no se conocen entre sí."
+    },
+    {
+      "nombre": "Tema picante",
+      "descripcion": "palabras de doble sentido para subir la intensidad."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "El Impostor: reglas del juego de deducción para fiestas",
+    "metaDescripcion": "Cómo jugar El Impostor: descubrí quién no conoce la palabra secreta. Reglas paso a paso, variantes y niveles de intensidad.",
+    "keywordObjetivo": "juego el impostor para fiesta reglas",
+    "preguntaAIOverview": "¿Cómo se juega El Impostor en una fiesta?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cómo sabe el impostor qué decir si no conoce la palabra?",
+      "respuesta": "Debe improvisar una pista genérica que no lo delate, basándose en las pistas de los demás."
+    },
+    {
+      "pregunta": "¿Qué pasa si nadie vota correctamente?",
+      "respuesta": "El impostor gana esa ronda y el resto del grupo cumple la consecuencia."
+    }
+  ],
+  "bancoContenido": "propio"
+}

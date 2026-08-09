@@ -1,0 +1,73 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "animales": [
+      "Elefante",
+      "Canguro",
+      "Pingüino",
+      "Serpiente",
+      "Águila",
+      "Delfín",
+      "Jirafa",
+      "Mono",
+      "León",
+      "Tortuga",
+      "Cebra",
+      "Koala",
+      "Pulpo",
+      "Flamenco",
+      "Oso panda"
+    ],
+    "peliculas-y-personajes": [
+      "Un superhéroe volando",
+      "Un pirata buscando un tesoro",
+      "Un astronauta caminando en la luna",
+      "Un dinosaurio rugiendo",
+      "Un mago haciendo un hechizo",
+      "Un robot caminando",
+      "Un vaquero a caballo",
+      "Un fantasma asustando",
+      "Un detective investigando una pista",
+      "Un chef cocinando un plato especial",
+      "Un ninja escabulléndose en silencio",
+      "Un explorador cruzando la selva",
+      "Un rey dando órdenes en su trono",
+      "Una bailarina haciendo piruetas",
+      "Un espía escapando en secreto"
+    ],
+    "navidad": [
+      "Papá Noel repartiendo regalos",
+      "Armar un árbol de navidad",
+      "Un reno tirando del trineo",
+      "Envolver un regalo",
+      "Cantar villancicos",
+      "Hacer un muñeco de nieve",
+      "Decorar galletas navideñas",
+      "Abrir regalos con cara de sorpresa",
+      "Colgar luces navideñas",
+      "Un duende ayudante de Papá Noel",
+      "Patinar sobre hielo",
+      "Tomar chocolate caliente",
+      "Un ángel en la punta del árbol",
+      "Escribir una carta a Papá Noel",
+      "Una chimenea con medias colgadas"
+    ],
+    "san-valentin": [
+      "Escribir una carta de amor",
+      "Regalar un ramo de flores",
+      "Un cupido disparando una flecha",
+      "Compartir una caja de bombones",
+      "Una cena romántica a la luz de las velas",
+      "Escribir un poema de amor",
+      "Bailar un vals",
+      "Dibujar un corazón",
+      "Enviar un ramo de rosas",
+      "Pedir matrimonio con un anillo",
+      "Un globo con forma de corazón",
+      "Brindar con copas de champagne",
+      "Caminar de la mano por el parque",
+      "Regalar una caja de chocolates en forma de corazón",
+      "Escribir \"te quiero\" en la arena de la playa"
+    ]
+  }
+}

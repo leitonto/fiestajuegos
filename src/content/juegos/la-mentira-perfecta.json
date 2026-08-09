@@ -1,0 +1,59 @@
+{
+  "nombre": "La Mentira Perfecta",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "6",
+    "maximo": 12,
+    "alSuperarMaximo": "limitar la cantidad de respuestas falsas que se leen en voz alta por ronda (ej. máximo 6 opciones) en vez de leer una por cada jugador extra, para no hacer la votación eterna."
+  },
+  "materiales": "papel o celular para escribir respuestas (o Modo Urna, #13).",
+  "duracionEstimada": "20–35 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cumpleanos",
+    "despedida-de-soltero",
+    "afterwork"
+  ],
+  "reglas": [
+    "Se hace una pregunta personal sobre un jugador (ej. \"¿cuál es el miedo más raro de esta persona?\").",
+    "Esa persona escribe la verdad en secreto; el resto inventa una respuesta falsa creíble.",
+    "Se leen todas las respuestas mezcladas, sin decir de quién es cada una.",
+    "El grupo vota cuál cree que es la real.",
+    "Quien adivina la verdadera suma un punto; quien logró que otros creyeran su mentira también suma un punto."
+  ],
+  "variantes": [
+    {
+      "nombre": "Trivia Mentirosa",
+      "descripcion": "se usa una pregunta de cultura general en vez de una personal — funciona incluso entre desconocidos."
+    },
+    {
+      "nombre": "Versión sin alcohol",
+      "descripcion": "solo se juega por puntos, sin consecuencia de trago; buena opción para grupo familiar."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "La Mentira Perfecta: juego de bluff y adivinar la respuesta real",
+    "metaDescripcion": "Reglas de La Mentira Perfecta: escribí una mentira creíble y descubrí cuál respuesta es la verdadera. Funciona con amigos o desconocidos.",
+    "keywordObjetivo": "juego de mentiras y adivinar la verdadera fiesta",
+    "preguntaAIOverview": "¿Cómo se juega a inventar mentiras y adivinar la verdad?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Funciona con gente que no se conoce?",
+      "respuesta": "Sí, con la variante Trivia Mentirosa, que usa preguntas de cultura general en vez de personales."
+    },
+    {
+      "pregunta": "¿Cómo se mantiene el anonimato de las respuestas?",
+      "respuesta": "Se leen todas mezcladas sin indicar autoría hasta después de la votación."
+    }
+  ],
+  "bancoContenido": "propio"
+}

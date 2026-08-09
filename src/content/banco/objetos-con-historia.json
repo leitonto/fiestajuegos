@@ -1,0 +1,19 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "todos": [
+      "El primer regalo que se dieron.",
+      "Algo que compraron juntos en su primer viaje.",
+      "Un objeto del primer lugar que compartieron, o del hogar de uno de los dos.",
+      "Algo que uno de los dos guarda \"sin razón aparente\" pero en realidad tiene una historia.",
+      "Un objeto heredado de la familia de alguno de los dos.",
+      "Algo que se rompió y todavía no tiran.",
+      "El objeto más viejo que tienen en común.",
+      "Algo comprado a las apuradas para un regalo de último momento.",
+      "Un objeto que sobrevivió a una mudanza importante.",
+      "Algo que ganaron juntos en algún juego o sorteo.",
+      "Un objeto que casi se pierde y por suerte apareció.",
+      "Algo que uno de los dos hizo a mano para el otro alguna vez."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nombre": "El Rumor",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 5,
+    "ideal": "8",
+    "maximo": 14,
+    "alSuperarMaximo": "dividir en dos cadenas paralelas (dos filas) que corren el mismo reto al mismo tiempo y comparan resultados al final."
+  },
+  "materiales": "ninguno.",
+  "duracionEstimada": "10–15 min por ronda.",
+  "intensidad": [
+    "suave",
+    "normal"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "reunion-familiar",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Los jugadores se ubican en fila o círculo.",
+    "El primero recibe un reto corto en privado (vía app o susurrado).",
+    "Debe transmitirlo por mímica (o susurro, según variante) al siguiente jugador.",
+    "El mensaje se transmite en cadena hasta el último jugador.",
+    "El último debe adivinar o ejecutar el reto original en voz alta.",
+    "Si se distorsionó demasiado respecto al original, todo el grupo bebe o cumple prenda."
+  ],
+  "variantes": [
+    {
+      "nombre": "Modo susurro",
+      "descripcion": "como teléfono descompuesto clásico, con una frase en vez de un reto."
+    },
+    {
+      "nombre": "Modo doble cadena",
+      "descripcion": "una fila compite contra otra con el mismo mensaje inicial."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "El Rumor: teléfono descompuesto con retos para fiestas",
+    "metaDescripcion": "Reglas de El Rumor: transmití un reto en cadena sin que se distorsione. Variantes de mímica y susurro para tu grupo.",
+    "keywordObjetivo": "juego telefono descompuesto para fiesta con retos",
+    "preguntaAIOverview": "¿Cómo se juega el teléfono descompuesto con retos?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es un juego de mímica o de susurro?",
+      "respuesta": "Tiene ambas modalidades; la versión base es por mímica."
+    },
+    {
+      "pregunta": "¿Qué pasa si el mensaje se distorsiona mucho?",
+      "respuesta": "Todo el grupo cumple la consecuencia, no solo el último jugador."
+    }
+  ],
+  "bancoContenido": "propio"
+}

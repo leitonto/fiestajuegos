@@ -1,0 +1,733 @@
+{
+  "formato": "palabra-prohibidas",
+  "grupos": {
+    "suave": [
+      {
+        "palabra": "Playa",
+        "prohibidas": [
+          "Arena",
+          "Mar",
+          "Sol",
+          "Verano"
+        ]
+      },
+      {
+        "palabra": "Cumpleaños",
+        "prohibidas": [
+          "Torta",
+          "Vela",
+          "Regalo",
+          "Fiesta"
+        ]
+      },
+      {
+        "palabra": "Lluvia",
+        "prohibidas": [
+          "Paraguas",
+          "Nube",
+          "Mojado",
+          "Tormenta"
+        ]
+      },
+      {
+        "palabra": "Café",
+        "prohibidas": [
+          "Taza",
+          "Mañana",
+          "Cafeína",
+          "Leche"
+        ]
+      },
+      {
+        "palabra": "Escuela",
+        "prohibidas": [
+          "Maestro",
+          "Tarea",
+          "Aula",
+          "Recreo"
+        ]
+      },
+      {
+        "palabra": "Cine",
+        "prohibidas": [
+          "Película",
+          "Palomitas",
+          "Pantalla",
+          "Boleto"
+        ]
+      },
+      {
+        "palabra": "Navidad",
+        "prohibidas": [
+          "Árbol",
+          "Regalo",
+          "Papá Noel",
+          "Diciembre"
+        ]
+      },
+      {
+        "palabra": "Perro",
+        "prohibidas": [
+          "Ladrar",
+          "Correa",
+          "Hueso",
+          "Mascota"
+        ]
+      },
+      {
+        "palabra": "Pizza",
+        "prohibidas": [
+          "Queso",
+          "Horno",
+          "Rebanada",
+          "Italia"
+        ]
+      },
+      {
+        "palabra": "Bicicleta",
+        "prohibidas": [
+          "Rueda",
+          "Pedal",
+          "Casco",
+          "Cadena"
+        ]
+      },
+      {
+        "palabra": "Verano",
+        "prohibidas": [
+          "Calor",
+          "Playa",
+          "Vacaciones",
+          "Sol"
+        ]
+      },
+      {
+        "palabra": "Fútbol",
+        "prohibidas": [
+          "Pelota",
+          "Cancha",
+          "Gol",
+          "Equipo"
+        ]
+      },
+      {
+        "palabra": "Cocina",
+        "prohibidas": [
+          "Chef",
+          "Receta",
+          "Sartén",
+          "Horno"
+        ]
+      },
+      {
+        "palabra": "Aeropuerto",
+        "prohibidas": [
+          "Avión",
+          "Maleta",
+          "Vuelo",
+          "Pasaporte"
+        ]
+      },
+      {
+        "palabra": "Fiesta de 15 años",
+        "prohibidas": [
+          "Vestido",
+          "Vals",
+          "Salón",
+          "Quinceañera"
+        ]
+      },
+      {
+        "palabra": "Supermercado",
+        "prohibidas": [
+          "Carrito",
+          "Cajero",
+          "Pasillo",
+          "Compras"
+        ]
+      },
+      {
+        "palabra": "Concierto",
+        "prohibidas": [
+          "Escenario",
+          "Banda",
+          "Entrada",
+          "Música"
+        ]
+      },
+      {
+        "palabra": "Doctor",
+        "prohibidas": [
+          "Hospital",
+          "Receta",
+          "Enfermera",
+          "Consultorio"
+        ]
+      },
+      {
+        "palabra": "Biblioteca",
+        "prohibidas": [
+          "Libro",
+          "Silencio",
+          "Estante",
+          "Préstamo"
+        ]
+      },
+      {
+        "palabra": "Zoológico",
+        "prohibidas": [
+          "Animales",
+          "Jaula",
+          "Boletos",
+          "Recorrido"
+        ]
+      }
+    ],
+    "normal": [
+      {
+        "palabra": "Resaca",
+        "prohibidas": [
+          "Alcohol",
+          "Dolor",
+          "Cabeza",
+          "Fiesta"
+        ]
+      },
+      {
+        "palabra": "Ex",
+        "prohibidas": [
+          "Pareja",
+          "Terminar",
+          "Recuerdo",
+          "Corazón"
+        ]
+      },
+      {
+        "palabra": "Jefe",
+        "prohibidas": [
+          "Trabajo",
+          "Oficina",
+          "Sueldo",
+          "Reunión"
+        ]
+      },
+      {
+        "palabra": "Redes sociales",
+        "prohibidas": [
+          "Celular",
+          "Publicar",
+          "Like",
+          "Historia"
+        ]
+      },
+      {
+        "palabra": "Insomnio",
+        "prohibidas": [
+          "Dormir",
+          "Noche",
+          "Despierto",
+          "Cansado"
+        ]
+      },
+      {
+        "palabra": "Suegra",
+        "prohibidas": [
+          "Familia",
+          "Pareja",
+          "Casa",
+          "Consejo"
+        ]
+      },
+      {
+        "palabra": "Divorcio",
+        "prohibidas": [
+          "Matrimonio",
+          "Separar",
+          "Abogado",
+          "Anillo"
+        ]
+      },
+      {
+        "palabra": "Gimnasio",
+        "prohibidas": [
+          "Pesas",
+          "Sudar",
+          "Rutina",
+          "Músculo"
+        ]
+      },
+      {
+        "palabra": "Chisme",
+        "prohibidas": [
+          "Secreto",
+          "Contar",
+          "Rumor",
+          "Vecino"
+        ]
+      },
+      {
+        "palabra": "Cuarentena",
+        "prohibidas": [
+          "Casa",
+          "Virus",
+          "Encierro",
+          "Pandemia"
+        ]
+      },
+      {
+        "palabra": "Entrevista de trabajo",
+        "prohibidas": [
+          "Currículum",
+          "Nervios",
+          "Traje",
+          "Preguntas"
+        ]
+      },
+      {
+        "palabra": "Alquiler",
+        "prohibidas": [
+          "Casa",
+          "Pagar",
+          "Dueño",
+          "Contrato"
+        ]
+      },
+      {
+        "palabra": "Tráfico",
+        "prohibidas": [
+          "Auto",
+          "Semáforo",
+          "Bocina",
+          "Embotellamiento"
+        ]
+      },
+      {
+        "palabra": "Terapia",
+        "prohibidas": [
+          "Psicólogo",
+          "Diván",
+          "Emociones",
+          "Sesión"
+        ]
+      },
+      {
+        "palabra": "Cumpleaños número 30",
+        "prohibidas": [
+          "Crisis",
+          "Vela",
+          "Edad",
+          "Fiesta"
+        ]
+      },
+      {
+        "palabra": "Boda",
+        "prohibidas": [
+          "Novios",
+          "Anillo",
+          "Iglesia",
+          "Fiesta"
+        ]
+      },
+      {
+        "palabra": "Impuestos",
+        "prohibidas": [
+          "Dinero",
+          "Gobierno",
+          "Declarar",
+          "Multa"
+        ]
+      },
+      {
+        "palabra": "Vecino",
+        "prohibidas": [
+          "Ruido",
+          "Pared",
+          "Casa",
+          "Molesto"
+        ]
+      },
+      {
+        "palabra": "Grupo familiar de WhatsApp",
+        "prohibidas": [
+          "Tía",
+          "Cadena",
+          "Mensaje",
+          "Meme"
+        ]
+      },
+      {
+        "palabra": "Cita a ciegas",
+        "prohibidas": [
+          "Desconocido",
+          "Nervios",
+          "Restaurante",
+          "Sorpresa"
+        ]
+      }
+    ],
+    "picante": [
+      {
+        "palabra": "Beso",
+        "prohibidas": [
+          "Labios",
+          "Boca",
+          "Romance",
+          "Pareja"
+        ]
+      },
+      {
+        "palabra": "Cita a ciegas",
+        "prohibidas": [
+          "Desconocido",
+          "Nervios",
+          "Restaurante",
+          "Primera vez"
+        ]
+      },
+      {
+        "palabra": "Coqueteo",
+        "prohibidas": [
+          "Mirada",
+          "Insinuar",
+          "Gustar",
+          "Seducir"
+        ]
+      },
+      {
+        "palabra": "Infidelidad",
+        "prohibidas": [
+          "Engaño",
+          "Pareja",
+          "Secreto",
+          "Traición"
+        ]
+      },
+      {
+        "palabra": "Tinder",
+        "prohibidas": [
+          "Aplicación",
+          "Match",
+          "Cita",
+          "Deslizar"
+        ]
+      },
+      {
+        "palabra": "Despecho",
+        "prohibidas": [
+          "Ex",
+          "Dolor",
+          "Venganza",
+          "Corazón roto"
+        ]
+      },
+      {
+        "palabra": "Piropo",
+        "prohibidas": [
+          "Halago",
+          "Calle",
+          "Coqueteo",
+          "Frase"
+        ]
+      },
+      {
+        "palabra": "Ligue",
+        "prohibidas": [
+          "Discoteca",
+          "Baile",
+          "Noche",
+          "Conquista"
+        ]
+      },
+      {
+        "palabra": "Celos",
+        "prohibidas": [
+          "Pareja",
+          "Desconfianza",
+          "Enojo",
+          "Posesivo"
+        ]
+      },
+      {
+        "palabra": "Amante",
+        "prohibidas": [
+          "Secreto",
+          "Infidelidad",
+          "Escondido",
+          "Pareja"
+        ]
+      },
+      {
+        "palabra": "Antro",
+        "prohibidas": [
+          "Baile",
+          "Noche",
+          "Alcohol",
+          "Música"
+        ]
+      },
+      {
+        "palabra": "Enamoramiento",
+        "prohibidas": [
+          "Mariposas",
+          "Corazón",
+          "Química",
+          "Flechazo"
+        ]
+      },
+      {
+        "palabra": "Ruptura",
+        "prohibidas": [
+          "Terminar",
+          "Llorar",
+          "Corazón",
+          "Ex"
+        ]
+      },
+      {
+        "palabra": "Seducción",
+        "prohibidas": [
+          "Mirada",
+          "Coqueteo",
+          "Encanto",
+          "Conquista"
+        ]
+      },
+      {
+        "palabra": "Walk of shame",
+        "prohibidas": [
+          "Mañana",
+          "Salida",
+          "Ropa",
+          "Vergüenza"
+        ]
+      },
+      {
+        "palabra": "Segunda cita",
+        "prohibidas": [
+          "Nervios",
+          "Confianza",
+          "Avanzar",
+          "Conexión"
+        ]
+      },
+      {
+        "palabra": "Crush",
+        "prohibidas": [
+          "Enamorado",
+          "Secreto",
+          "Gustar",
+          "Nervios"
+        ]
+      },
+      {
+        "palabra": "Casanova",
+        "prohibidas": [
+          "Conquista",
+          "Mujeriego",
+          "Seducción",
+          "Galán"
+        ]
+      },
+      {
+        "palabra": "Química",
+        "prohibidas": [
+          "Conexión",
+          "Atracción",
+          "Pareja",
+          "Chispa"
+        ]
+      },
+      {
+        "palabra": "Reconciliación",
+        "prohibidas": [
+          "Pareja",
+          "Perdón",
+          "Volver",
+          "Pelea"
+        ]
+      }
+    ],
+    "modo-familiar": [
+      {
+        "palabra": "León",
+        "prohibidas": [
+          "Selva",
+          "Rugir",
+          "Melena",
+          "Rey"
+        ]
+      },
+      {
+        "palabra": "Helado",
+        "prohibidas": [
+          "Frío",
+          "Cono",
+          "Verano",
+          "Sabor"
+        ]
+      },
+      {
+        "palabra": "Payaso",
+        "prohibidas": [
+          "Circo",
+          "Nariz roja",
+          "Risa",
+          "Globo"
+        ]
+      },
+      {
+        "palabra": "Dinosaurio",
+        "prohibidas": [
+          "Extinto",
+          "Grande",
+          "Fósil",
+          "Jurásico"
+        ]
+      },
+      {
+        "palabra": "Arcoíris",
+        "prohibidas": [
+          "Colores",
+          "Lluvia",
+          "Cielo",
+          "Sol"
+        ]
+      },
+      {
+        "palabra": "Castillo",
+        "prohibidas": [
+          "Rey",
+          "Torre",
+          "Princesa",
+          "Muralla"
+        ]
+      },
+      {
+        "palabra": "Astronauta",
+        "prohibidas": [
+          "Espacio",
+          "Luna",
+          "Cohete",
+          "Traje"
+        ]
+      },
+      {
+        "palabra": "Sirena",
+        "prohibidas": [
+          "Mar",
+          "Cola",
+          "Cantar",
+          "Agua"
+        ]
+      },
+      {
+        "palabra": "Dragón",
+        "prohibidas": [
+          "Fuego",
+          "Volar",
+          "Cuento",
+          "Escamas"
+        ]
+      },
+      {
+        "palabra": "Robot",
+        "prohibidas": [
+          "Metal",
+          "Máquina",
+          "Botones",
+          "Futuro"
+        ]
+      },
+      {
+        "palabra": "Pirata",
+        "prohibidas": [
+          "Barco",
+          "Tesoro",
+          "Parche",
+          "Loro"
+        ]
+      },
+      {
+        "palabra": "Bruja",
+        "prohibidas": [
+          "Escoba",
+          "Sombrero",
+          "Hechizo",
+          "Caldero"
+        ]
+      },
+      {
+        "palabra": "Vaquero",
+        "prohibidas": [
+          "Caballo",
+          "Sombrero",
+          "Rancho",
+          "Lazo"
+        ]
+      },
+      {
+        "palabra": "Hada",
+        "prohibidas": [
+          "Magia",
+          "Alas",
+          "Varita",
+          "Polvo"
+        ]
+      },
+      {
+        "palabra": "Superhéroe",
+        "prohibidas": [
+          "Capa",
+          "Poderes",
+          "Máscara",
+          "Salvar"
+        ]
+      },
+      {
+        "palabra": "Mago",
+        "prohibidas": [
+          "Sombrero",
+          "Varita",
+          "Trucos",
+          "Conejo"
+        ]
+      },
+      {
+        "palabra": "Fantasma",
+        "prohibidas": [
+          "Casa",
+          "Sábana",
+          "Boo",
+          "Invisible"
+        ]
+      },
+      {
+        "palabra": "Duende",
+        "prohibidas": [
+          "Bosque",
+          "Pequeño",
+          "Gorro",
+          "Travieso"
+        ]
+      },
+      {
+        "palabra": "Unicornio",
+        "prohibidas": [
+          "Cuerno",
+          "Caballo",
+          "Magia",
+          "Colores"
+        ]
+      },
+      {
+        "palabra": "Momia",
+        "prohibidas": [
+          "Egipto",
+          "Vendas",
+          "Tumba",
+          "Antiguo"
+        ]
+      }
+    ]
+  }
+}

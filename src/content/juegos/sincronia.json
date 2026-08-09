@@ -1,0 +1,56 @@
+{
+  "nombre": "Sincronía",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "papel/celular para anotar en privado (o Modo Urna, #13).",
+  "duracionEstimada": "15–20 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Se hace una pregunta sobre la pareja (ej. \"¿cuál es la comida favorita del otro?\").",
+    "Ambos responden por separado, sin ver la respuesta del otro.",
+    "Se revelan las respuestas juntas.",
+    "Si coinciden, ambos \"ganan\" la ronda.",
+    "Si no coinciden, cumplen una prenda pactada (trago, beso, verdad extra)."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Ronda cruzada entre varias parejas (arriba)."
+    },
+    {
+      "nombre": "Modo memoria",
+      "descripcion": "preguntas sobre momentos compartidos específicos, no gustos generales."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Sincronía: juego para parejas de adivinar si coinciden",
+    "metaDescripcion": "Cómo jugar Sincronía en pareja: respondan por separado y descubran si piensan igual. Ideal para citas y aniversarios.",
+    "keywordObjetivo": "juego para parejas adivinar si coinciden",
+    "preguntaAIOverview": "¿Qué juegos hay para saber si una pareja piensa igual?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Se puede jugar con varias parejas a la vez?",
+      "respuesta": "Sí, con la variante de ronda cruzada, comparando puntajes entre parejas."
+    },
+    {
+      "pregunta": "¿Qué pasa si no coinciden?",
+      "respuesta": "Cumplen una prenda pactada de antemano (trago, verdad extra, etc.)."
+    }
+  ],
+  "bancoContenido": "propio"
+}

@@ -1,0 +1,54 @@
+{
+  "nombre": "El Mapa del Cuerpo / Gestos",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "tarjetas de retos (app).",
+  "duracionEstimada": "10–15 min.",
+  "intensidad": [
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Se sortea una tarjeta con un reto físico suave (ej. masaje de 20 segundos, contacto guiado con los ojos cerrados).",
+    "Ambos cumplen el reto dentro del tiempo asignado.",
+    "Se turna el rol entre ambos.",
+    "Se repite con una nueva tarjeta si desean continuar."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Nivel de contacto ajustable según comodidad de la pareja."
+    },
+    {
+      "nombre": "Versión a ciegas",
+      "descripcion": "uno de los dos con los ojos vendados."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "El Mapa del Cuerpo: juego de contacto suave para parejas",
+    "metaDescripcion": "Reglas de El Mapa del Cuerpo: tarjetas de contacto físico suave para jugar en pareja, con nivel ajustable a tu comodidad.",
+    "keywordObjetivo": "juego de contacto para parejas fiesta romantica",
+    "preguntaAIOverview": "¿Qué juegos de contacto físico hay para parejas?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es un juego con contenido explícito?",
+      "respuesta": "No — los retos son de contacto físico suave (ej. masajes cortos), sin contenido sexual explícito."
+    },
+    {
+      "pregunta": "¿Se puede ajustar el nivel de contacto?",
+      "respuesta": "Sí, cada pareja define su propio nivel de comodidad antes de jugar."
+    }
+  ],
+  "bancoContenido": "propio"
+}

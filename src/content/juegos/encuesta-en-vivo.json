@@ -1,0 +1,58 @@
+{
+  "nombre": "Encuesta en Vivo",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 15,
+    "alSuperarMaximo": "mostrar solo una submuestra aleatoria de respuestas por ronda (no todas) para no hacer la fase de \"adivina quién dijo esto\" demasiado larga."
+  },
+  "materiales": "un celular (usa la mecánica de Modo Urna, #13).",
+  "duracionEstimada": "20–30 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cumpleanos",
+    "despedida-de-soltero"
+  ],
+  "reglas": [
+    "Al empezar, el celular pasa por todos en privado (Modo Urna) y cada uno responde varias preguntas rápidas sin que el resto vea.",
+    "Durante el juego, la app muestra una respuesta guardada a la vez.",
+    "El grupo debe adivinar de quién es esa respuesta.",
+    "Quien acierta primero suma un punto.",
+    "El autor de la respuesta puede confirmar o mantener el misterio."
+  ],
+  "variantes": [
+    {
+      "nombre": "Ronda picante",
+      "descripcion": "preguntas más personales o comprometedoras."
+    },
+    {
+      "nombre": "Modo revancha",
+      "descripcion": "la persona señalada elige quién cumple la consecuencia si el grupo adivinó mal."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Encuesta en Vivo: juego de adivinar quién dijo qué",
+    "metaDescripcion": "Cómo jugar Encuesta en Vivo: respondé en privado y adiviná de quién es cada respuesta. Ideal para grupos que ya se conocen.",
+    "keywordObjetivo": "juego adivina quien dijo esto fiesta",
+    "preguntaAIOverview": "¿Cómo se juega a adivinar quién dijo qué en un grupo?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cómo se mantiene el anonimato de las respuestas?",
+      "respuesta": "Cada jugador responde tapando la pantalla del resto; nadie ve las respuestas ajenas hasta la revelación."
+    },
+    {
+      "pregunta": "¿Se puede jugar sin celular?",
+      "respuesta": "No es recomendable — la mecánica depende de recolectar respuestas en privado."
+    }
+  ],
+  "bancoContenido": "propio"
+}

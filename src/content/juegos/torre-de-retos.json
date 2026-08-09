@@ -3,37 +3,54 @@
   "categoria": "bebida",
   "jugadores": {
     "minimo": 2,
-    "ideal": "4-8",
+    "ideal": "6",
     "maximo": 10,
-    "alSuperarMaximo": "Dividir en 2 torres en paralelo, o pasar de 'un reto por bloque' a 'un reto cada 2 bloques'."
+    "alSuperarMaximo": "dividir en 2 torres en paralelo, o pasar de \"un reto por bloque\" a \"un reto cada 2 bloques\" para acelerar el ritmo con más gente esperando turno."
   },
-  "materiales": "torre de bloques apilables",
-  "duracionEstimada": "20-40 min, hasta que la torre cae",
-  "intensidad": ["suave", "normal", "picante"],
+  "materiales": "torre de bloques apilables — física, no digital.",
+  "duracionEstimada": "20–40 min, hasta que la torre cae.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
   "intensidadEscala": false,
   "alcohol": "adaptable",
-  "ocasiones": ["cumpleanos", "reunion-familiar"],
+  "ocasiones": [
+    "cumpleanos",
+    "reunion-familiar"
+  ],
   "reglas": [
-    "Cada bloque de la torre tiene asignado un reto o regla.",
+    "Cada bloque de la torre tiene asignado un reto o regla (impreso, o consultado en la app por número/color de bloque).",
     "Por turnos, cada jugador retira un bloque.",
     "Cumple el reto correspondiente antes de colocarlo arriba de la torre.",
     "Se continúa hasta que la torre se cae.",
-    "Quien hace caer la torre cumple una consecuencia mayor."
+    "Quien hace caer la torre cumple una consecuencia mayor (toma todo lo acumulado, o cumple un reto grupal)."
   ],
   "variantes": [
-    { "nombre": "Reglas activas persistentes", "descripcion": "Bloques con reglas que quedan vigentes el resto de la partida." },
-    { "nombre": "Modo familiar", "descripcion": "Retos sin alcohol, aptos para todo público." }
+    {
+      "descripcion": "Bloques con reglas activas que permanecen vigentes el resto de la partida, no solo al retirarlos."
+    },
+    {
+      "descripcion": "Modo familiar con retos sin alcohol."
+    }
   ],
   "disclaimer": true,
   "seo": {
     "titulo": "Torre de Retos: torre de bloques apilables con desafíos para fiesta",
-    "metaDescripcion": "Cómo jugar Torre de Retos: cada bloque tiene un desafío asignado.",
+    "metaDescripcion": "Cómo jugar Torre de Retos: cada bloque que se retira de la torre tiene un desafío asignado. Quien la tira cumple la consecuencia mayor.",
     "keywordObjetivo": "torre de bloques con retos para fiesta",
     "preguntaAIOverview": "¿Cómo se juega con una torre de bloques y retos en una fiesta?"
   },
   "faq": [
-    { "pregunta": "¿Necesito la torre física?", "respuesta": "Sí, esta mecánica depende de un juego de bloques apilables físico." },
-    { "pregunta": "¿Qué pasa cuando se cae la torre?", "respuesta": "Quien la tira cumple una consecuencia mayor." }
+    {
+      "pregunta": "¿Necesito la torre física?",
+      "respuesta": "Sí, esta mecánica depende de un juego de bloques apilables físico."
+    },
+    {
+      "pregunta": "¿Qué pasa cuando se cae la torre?",
+      "respuesta": "Quien la tira cumple una consecuencia mayor a la de un bloque normal."
+    }
   ],
   "bancoContenido": "propio"
 }

@@ -1,0 +1,39 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "suave": [
+      "Dormir",
+      "Nadar",
+      "Cocinar",
+      "Un elefante",
+      "Andar en bicicleta",
+      "Un mago",
+      "Lavarse los dientes",
+      "Un superhéroe volando",
+      "Jugar al fútbol",
+      "Un robot",
+      "Un canguro saltando",
+      "Tocar la guitarra",
+      "Un pingüino caminando",
+      "Manejar un auto",
+      "Un fantasma asustando"
+    ],
+    "normal": [
+      "Un político dando un discurso",
+      "Alguien tratando de estacionar mal",
+      "Un influencer grabando una historia",
+      "Alguien ligando en un discoteca",
+      "Alguien fingiendo que no vio un mensaje",
+      "Un profesor enojado",
+      "Alguien haciendo trampa en un examen",
+      "Alguien posando para una foto en el gimnasio",
+      "Un mesero con una mesa complicada",
+      "Alguien tratando de abrir un frasco que no cede",
+      "Un streamer reaccionando a algo aburrido",
+      "Alguien fingiendo que le encantó un regalo horrible",
+      "Un turista perdido pidiendo indicaciones",
+      "Alguien tratando de tomarse una selfie perfecta",
+      "Un jefe furioso por un error tonto"
+    ]
+  }
+}

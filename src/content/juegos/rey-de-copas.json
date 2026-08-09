@@ -1,0 +1,78 @@
+{
+  "nombre": "Rey de Copas",
+  "categoria": "bebida",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 14,
+    "alSuperarMaximo": "usar 2 mazos combinados en vez de cambiar las reglas de las cartas."
+  },
+  "materiales": "un mazo de cartas (o versión digital en la app).",
+  "duracionEstimada": "30–60 min — dura hasta que se termina el mazo.",
+  "intensidad": [
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "con",
+  "ocasiones": [
+    "despedida-de-soltero",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Las cartas se reparten boca abajo alrededor de un círculo.",
+    "Por turnos, cada jugador saca una carta.",
+    "Cada número o figura tiene una regla asignada (ej. As = cascada, todos toman en cadena; Rey = crea una regla nueva; Reina = pregunta a elección; Jota = el jugador a la derecha toma).",
+    "Se cumple la regla correspondiente antes de pasar el turno.",
+    "El juego termina cuando se saca la última carta del mazo."
+  ],
+  "variantes": [
+    {
+      "nombre": "Con vaso central",
+      "descripcion": "quien saca el cuarto Rey debe tomar todo el vaso donde se fueron vertiendo tragos durante la partida."
+    },
+    {
+      "descripcion": "Reglas personalizadas por grupo, reasignables antes de empezar."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Rey de Copas: reglas del clásico juego de cartas para beber",
+    "metaDescripcion": "Reglas completas de Rey de Copas: qué significa cada carta, cómo funciona el vaso central y variantes para tu grupo.",
+    "keywordObjetivo": "rey de copas juego de cartas para beber reglas",
+    "preguntaAIOverview": "¿Cómo se juega Rey de Copas con cartas?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Qué significa cada carta?",
+      "respuesta": "Cada número o figura tiene una regla fija asignada (cascada, pregunta, regla nueva, etc.), detallada en la ficha completa del juego."
+    },
+    {
+      "pregunta": "¿Necesito el vaso central obligatoriamente?",
+      "respuesta": "No, es una variante opcional; el juego funciona igual sin él."
+    }
+  ],
+  "bancoContenido": "ninguno",
+  "tablaCartas": [
+    {
+      "carta": "As",
+      "regla": "Cascada: todos toman en cadena"
+    },
+    {
+      "carta": "2-10",
+      "regla": "Reglas asignables por el grupo antes de empezar"
+    },
+    {
+      "carta": "Jota",
+      "regla": "El jugador a la derecha toma"
+    },
+    {
+      "carta": "Reina",
+      "regla": "Pregunta a elección"
+    },
+    {
+      "carta": "Rey",
+      "regla": "Crea una regla nueva"
+    }
+  ]
+}

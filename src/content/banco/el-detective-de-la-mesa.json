@@ -1,0 +1,19 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "todos": [
+      "Perro",
+      "Helado",
+      "Escuela",
+      "Payaso",
+      "Piscina",
+      "Cumpleaños",
+      "Superhéroe",
+      "Dinosaurio",
+      "Playa",
+      "Circo",
+      "Granja",
+      "Parque de diversiones"
+    ]
+  }
+}

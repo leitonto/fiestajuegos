@@ -1,0 +1,59 @@
+{
+  "nombre": "El Traductor",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "6",
+    "maximo": 12,
+    "alSuperarMaximo": "más equipos jugando en paralelo con timers simultáneos, comparando puntos al final."
+  },
+  "materiales": "banco de palabras (app), temporizador.",
+  "duracionEstimada": "15–20 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "reunion-familiar",
+    "cumpleanos",
+    "afterwork"
+  ],
+  "reglas": [
+    "Se arman parejas o equipos de 2.",
+    "Uno de los dos explica una palabra a su compañero sin decir la palabra misma ni las palabras prohibidas asociadas, contrarreloj (60 segundos).",
+    "Cada acierto suma un punto al equipo.",
+    "Si no logran que adivinen a tiempo, pasa el turno al siguiente equipo.",
+    "Gana el equipo con más puntos al final de la ronda pactada (o el último bebe, según preferencia del grupo)."
+  ],
+  "variantes": [
+    {
+      "nombre": "Modo familiar",
+      "descripcion": "banco de palabras infantil o general, sin restricciones de contenido."
+    },
+    {
+      "nombre": "Modo picante",
+      "descripcion": "palabras de doble sentido."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "El Traductor: cómo explicar una palabra sin decirla (juego para fiesta)",
+    "metaDescripcion": "Reglas de El Traductor: hay que lograr que tu equipo adivine la palabra sin decir los términos prohibidos, contrarreloj. Incluye modo familiar y modo picante.",
+    "keywordObjetivo": "juego de explicar palabras sin decirlas fiesta",
+    "preguntaAIOverview": "¿Cómo se juega a explicar una palabra sin decirla?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Hay versión para niños o familia?",
+      "respuesta": "Sí, con un banco de palabras infantil sin restricciones de contenido para adultos."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo hay por palabra?",
+      "respuesta": "60 segundos por defecto, ajustable."
+    }
+  ],
+  "bancoContenido": "propio"
+}

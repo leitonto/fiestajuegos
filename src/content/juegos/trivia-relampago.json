@@ -1,0 +1,54 @@
+{
+  "nombre": "Trivia Relámpago",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "6",
+    "maximo": 20,
+    "alSuperarMaximo": "más equipos, o formato \"el más rápido en levantar la mano responde\" para no perder tiempo con turnos fijos."
+  },
+  "materiales": "banco de preguntas (app), temporizador.",
+  "duracionEstimada": "20–30 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar",
+    "afterwork"
+  ],
+  "reglas": [
+    "Se forman equipos (o se juega individual en grupos chicos).",
+    "Se leen preguntas de cultura general con un temporizador corto.",
+    "El primer equipo en responder correctamente suma un punto.",
+    "Se continúa con la siguiente pregunta.",
+    "Gana quien más puntos acumule al final de la ronda pactada."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Categorías temáticas (deportes, cine, historia)."
+    },
+    {
+      "descripcion": "Modo por edades, con preguntas ajustadas si hay niños presentes."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Trivia Relámpago: preguntas de cultura general para jugar en familia",
+    "metaDescripcion": "Cómo jugar Trivia Relámpago: preguntas contrarreloj por equipos, con categorías temáticas y ajuste por edad.",
+    "keywordObjetivo": "trivia rapida para jugar en familia",
+    "preguntaAIOverview": "¿Cómo organizar una trivia rápida para jugar en familia?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Se puede ajustar la dificultad por edad?",
+      "respuesta": "Sí, existe un modo con preguntas adaptadas si hay niños en el grupo."
+    },
+    {
+      "pregunta": "¿Cuántas preguntas tiene cada ronda?",
+      "respuesta": "Es configurable; se recomienda una ronda corta de 10-15 preguntas para mantener el ritmo."
+    }
+  ],
+  "bancoContenido": "propio"
+}

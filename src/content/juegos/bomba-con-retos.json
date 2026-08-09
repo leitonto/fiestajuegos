@@ -1,0 +1,57 @@
+{
+  "nombre": "Bomba con Retos",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "9",
+    "maximo": 20,
+    "alSuperarMaximo": "acortar el tiempo de la \"mecha\" (temporizador) para que la bomba dé más vueltas antes de explotar, en vez de cambiar la penitencia en sí."
+  },
+  "materiales": "un celular (simula el sonido/vibración de la bomba) u objeto físico cualquiera.",
+  "duracionEstimada": "10–20 min.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "previa",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Se activa un temporizador oculto, con duración aleatoria dentro de un rango.",
+    "El objeto o celular pasa de jugador en jugador.",
+    "Al recibirlo, cada uno debe cumplir un mini-reto relámpago (trabalenguas, mímica de 5 segundos, responder rápido) antes de poder pasarlo.",
+    "Quien lo tiene en las manos cuando \"explota\" (suena la alarma) bebe o cumple prenda.",
+    "Se reinicia el temporizador y continúa la ronda."
+  ],
+  "variantes": [
+    {
+      "nombre": "Bomba de Categorías",
+      "descripcion": "combina con Categorías Express (#3) — mientras pasa, hay que seguir nombrando ítems de una categoría sin repetir; quien la tiene al explotar sin haber nombrado a tiempo, bebe doble."
+    },
+    {
+      "descripcion": "Detalle de producto: sonido que acelera su ritmo cerca de la explosión (solo JS/audio local, sin servidor)."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Bomba con Retos: el juego de la papa caliente con mini-desafíos",
+    "metaDescripcion": "Cómo jugar Bomba con Retos: pasá el celular, cumplí el mini-reto antes de que explote. Reglas y variante combinada con Categorías.",
+    "keywordObjetivo": "juego de la bomba con retos para fiesta",
+    "preguntaAIOverview": "¿Cómo se juega el juego de la bomba que explota en las fiestas?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura el temporizador?",
+      "respuesta": "Es aleatorio dentro de un rango definido, para que nadie pueda predecir cuándo explota."
+    },
+    {
+      "pregunta": "¿Necesito un objeto físico?",
+      "respuesta": "No, alcanza con el celular simulando el sonido y la vibración."
+    }
+  ],
+  "bancoContenido": "propio"
+}

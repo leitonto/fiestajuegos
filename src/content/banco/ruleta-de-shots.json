@@ -1,0 +1,49 @@
+{
+  "formato": "generico",
+  "grupos": {
+    "normal": [
+      "Está prohibido decir \"sí\" — hay que decir \"efectivamente\" en su lugar.",
+      "El que se toca la nariz, toma.",
+      "Está prohibido señalar con el dedo — hay que señalar con el codo.",
+      "El que diga el nombre de alguien del grupo en voz alta, toma.",
+      "Está prohibido cruzar los brazos.",
+      "El que se ría primero después de cada ronda, toma.",
+      "Hay que brindar antes de cada trago, sin excepción.",
+      "Está prohibido decir \"no sé\" — hay que inventar una respuesta, la que sea.",
+      "El último en levantar la mano cuando alguien pregunta algo al grupo, toma.",
+      "El que deja el vaso vacío sin avisar, toma doble la próxima ronda.",
+      "Está prohibido decir \"genial\" — hay que decir \"espectacular\" en su lugar.",
+      "El que bosteza sin taparse la boca, toma.",
+      "Está prohibido usar el celular sin anunciarlo en voz alta primero.",
+      "El que pierde el hilo de lo que estaba diciendo, toma.",
+      "Está prohibido decir números — hay que describirlos de otra forma.",
+      "El que se cambia de lugar sin avisar, toma.",
+      "Está prohibido chocar los cinco con la mano derecha — solo vale la izquierda.",
+      "El que repite una palabra dos veces seguidas sin querer, toma.",
+      "Está prohibido sentarse con las piernas cruzadas.",
+      "El que pregunta \"¿qué dijiste?\", toma."
+    ],
+    "picante": [
+      "El que mencione a un ex, toma.",
+      "Está prohibido decir \"amor\" o cualquier apodo cariñoso — quien lo diga, toma.",
+      "El que reciba un cumplido de alguien del grupo, debe devolverlo o tomar.",
+      "Está prohibido evitar el contacto visual al brindar.",
+      "El que confiese haber mentido esa noche (por chico que sea), toma.",
+      "Está prohibido decir \"tranquilo/a\" — quien lo diga, toma.",
+      "El que se sonroje visiblemente ante una pregunta picante del grupo, toma.",
+      "Está prohibido rechazar un brindis propuesto por otro jugador.",
+      "Está prohibido decir \"no puedo más\" — decirlo obliga a tomar doble.",
+      "El que admita tener (o haber tenido) un crush en el grupo, sin decir quién, toma.",
+      "Está prohibido decir \"nunca\" — quien lo diga, cuenta una excepción real en voz alta.",
+      "El que reciba una mirada fija de más de cinco segundos de otro jugador, toma.",
+      "Está prohibido decir \"en serio\" — quien lo diga, toma.",
+      "El que confiese haber stalkeado a alguien en redes esta semana, toma.",
+      "Está prohibido negarse a un desafío propuesto por el grupo.",
+      "El que admita haberle escrito a un ex en el último mes, toma.",
+      "Está prohibido decir \"no importa\" cuando claramente sí importa.",
+      "El que se ría de un chiste propio antes de terminarlo, toma.",
+      "Está prohibido esquivar una pregunta directa del grupo.",
+      "El que confiese cuál fue su última mentira piadosa, toma."
+    ]
+  }
+}

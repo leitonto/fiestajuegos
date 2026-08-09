@@ -1,0 +1,64 @@
+{
+  "nombre": "Verdad, Reto o Bebe",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "8",
+    "maximo": 15,
+    "alSuperarMaximo": "dividir en dos mesas paralelas con el mismo banco de preguntas, o pasar de penitencia individual a penitencia por mesa (la mesa que tarda más en resolver su ronda cumple en conjunto)."
+  },
+  "materiales": "ninguno (o el celular con la app para sacar preguntas/retos).",
+  "duracionEstimada": "20–40 min, o hasta que el grupo decida parar — es un juego sin fin natural.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "previa",
+    "cumpleanos",
+    "despedida-de-soltero"
+  ],
+  "reglas": [
+    "Los jugadores se sientan en círculo. Se define el sentido del turno.",
+    "En su turno, cada jugador elige entre Verdad, Reto o Bebe.",
+    "Si elige Verdad, responde con honestidad una pregunta del banco según la intensidad activa.",
+    "Si elige Reto, cumple el desafío asignado por la app o por el grupo.",
+    "Si elige Bebe, evita responder o actuar, pero toma un trago (o cumple la prenda equivalente en modo sin alcohol).",
+    "El turno pasa al siguiente jugador en el sentido definido."
+  ],
+  "variantes": [
+    {
+      "nombre": "Ronda Relámpago",
+      "descripcion": "se elimina la opción Verdad; solo Reto o Bebe, para acelerar el ritmo."
+    },
+    {
+      "nombre": "Verdad Grupal",
+      "descripcion": "la pregunta la responde el grupo entero sobre la persona señalada, mientras ella solo escucha."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Verdad, Reto o Bebe: cómo jugar + preguntas y retos por intensidad",
+    "metaDescripcion": "Reglas de Verdad, Reto o Bebe para tu fiesta: cómo jugar, preguntas y retos filtrables por intensidad, con y sin alcohol. Para grupos de 3 a 15.",
+    "keywordObjetivo": "verdad reto o bebe preguntas",
+    "preguntaAIOverview": "¿Cómo se juega Verdad, Reto o Bebe?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuántos jugadores necesito como mínimo?",
+      "respuesta": "Con 3 personas ya funciona, aunque es más divertido desde 5."
+    },
+    {
+      "pregunta": "¿Hay versión sin alcohol?",
+      "respuesta": "Sí, \"Bebe\" se reemplaza por una prenda equivalente."
+    },
+    {
+      "pregunta": "¿De dónde salen las preguntas y retos?",
+      "respuesta": "De un banco filtrable por nivel de intensidad (Suave, Normal, Picante)."
+    }
+  ],
+  "bancoContenido": "propio"
+}

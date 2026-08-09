@@ -1,0 +1,55 @@
+{
+  "nombre": "Maratón de Tragos",
+  "categoria": "bebida",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "8",
+    "maximo": 15,
+    "alSuperarMaximo": "subir la meta total (ej. de 15 a 20-25 sorbos) para que la carrera no se resuelva demasiado rápido con más gente sumando en paralelo."
+  },
+  "materiales": "ninguno — la app lleva el conteo.",
+  "duracionEstimada": "continua — dura toda la sesión o la noche, combinándose con otros juegos.",
+  "intensidad": [
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "despedida-de-soltero",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Se define una meta al inicio de la sesión (ej. 15 sorbos).",
+    "Cada mini-juego jugado durante la sesión suma o resta sorbos de la meta de cada jugador, según cómo le vaya.",
+    "El primero en llegar a la meta gana (modo estándar) o el último en llegar pierde (modo \"supervivencia\").",
+    "Es combinable con los Duelos (#15, #16): cada duelo ganado resta de tu meta y suma a la del rival."
+  ],
+  "variantes": [
+    {
+      "nombre": "Carrera a X Puntos",
+      "descripcion": "versión sin alcohol, mismo marco competitivo pero con fichas en vez de tragos."
+    },
+    {
+      "descripcion": "Combinado con duelos 1v1 para una dinámica más agresiva."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Maratón de Tragos: juego de carrera a una meta de sorbos",
+    "metaDescripcion": "Cómo jugar Maratón de Tragos: definí una meta y sumá o restá sorbos con cada mini-juego de la noche. Incluye versión sin alcohol.",
+    "keywordObjetivo": "juego de carrera de tragos meta para fiesta",
+    "preguntaAIOverview": "¿Qué es un juego de carrera de tragos con meta?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cómo se define la meta?",
+      "respuesta": "El grupo la acuerda al inicio de la sesión (ej. 15 sorbos); es ajustable según cuánto quiera durar la dinámica."
+    },
+    {
+      "pregunta": "¿Hay versión sin alcohol?",
+      "respuesta": "Sí, la variante Carrera a X Puntos usa fichas en vez de tragos."
+    }
+  ],
+  "bancoContenido": "ninguno"
+}

@@ -1,0 +1,54 @@
+{
+  "nombre": "Termómetro de la Relación",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "banco de situaciones hipotéticas (app).",
+  "duracionEstimada": "15–20 min.",
+  "intensidad": [
+    "suave",
+    "normal"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Se presenta una situación hipotética.",
+    "Ambos se posicionan en una escala (ej. \"totalmente de acuerdo\" a \"totalmente en desacuerdo\") sin ver la posición del otro primero.",
+    "Se revela y comparan qué tan lejos están entre sí.",
+    "Grandes diferencias pueden dar pie a conversación o a una consecuencia leve pactada."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Escala numérica (1–10) vs. escala de categorías."
+    },
+    {
+      "nombre": "Modo predicción",
+      "descripcion": "uno predice dónde se ubicará el otro antes de revelar."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Termómetro de la Relación: juego de compatibilidad para parejas",
+    "metaDescripcion": "Cómo jugar Termómetro de la Relación: posiciónense en situaciones hipotéticas y descubran qué tan de acuerdo están.",
+    "keywordObjetivo": "juego de compatibilidad para parejas preguntas",
+    "preguntaAIOverview": "¿Cómo saber si una pareja piensa parecido en situaciones hipotéticas?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es un juego competitivo o de conversación?",
+      "respuesta": "Es principalmente de conversación; la \"competencia\" es opcional."
+    },
+    {
+      "pregunta": "¿Requiere alcohol?",
+      "respuesta": "No, es uno de los pocos juegos de pareja pensados igual de bien sin consecuencia de trago."
+    }
+  ],
+  "bancoContenido": "propio"
+}

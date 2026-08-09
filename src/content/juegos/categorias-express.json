@@ -1,0 +1,56 @@
+{
+  "nombre": "Categorías Express",
+  "categoria": "grupales",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "8",
+    "maximo": 12,
+    "alSuperarMaximo": "reducir el tiempo de respuesta por turno (de 5 a 3 segundos) para compensar más vueltas, o jugar por equipos en vez de individual."
+  },
+  "materiales": "ninguno.",
+  "duracionEstimada": "10–20 min por categoría.",
+  "intensidad": [
+    "suave",
+    "normal"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "previa",
+    "afterwork",
+    "reunion-familiar"
+  ],
+  "reglas": [
+    "Se elige una categoría (ej. países, frutas, series).",
+    "Por turnos, cada jugador nombra un ítem de esa categoría sin repetir uno ya dicho.",
+    "Quien no responde dentro del tiempo límite, repite un ítem, o se sale de la categoría, bebe o cumple prenda.",
+    "La ronda continúa hasta agotar el tiempo definido o cambiar de categoría."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Combinable con Bomba de Categorías (#14): se nombra mientras un objeto pasa de mano en mano."
+    },
+    {
+      "nombre": "Categoría doble",
+      "descripcion": "dos categorías válidas a la vez, mayor dificultad."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Categorías Express: el juego de palabras contrarreloj para fiestas",
+    "metaDescripcion": "Reglas de Categorías Express: nombrá ítems sin repetir antes de que se acabe el tiempo. Con y sin alcohol, para grupos de 3 a 12.",
+    "keywordObjetivo": "juego de categorias para beber",
+    "preguntaAIOverview": "¿Cómo se juega el juego de categorías?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Se puede jugar sin alcohol?",
+      "respuesta": "Sí, la consecuencia por fallar puede ser una prenda en vez de un trago."
+    },
+    {
+      "pregunta": "¿Cuánto dura cada ronda?",
+      "respuesta": "Entre 10 y 20 minutos por categoría elegida."
+    }
+  ],
+  "bancoContenido": "propio"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "grupales",
+    "nombre": "Grupales",
+    "descripcion": "Juegos pensados para el grupo completo: preguntas, retos, deducción social, actuación y palabras."
+  },
+  {
+    "id": "duelos",
+    "nombre": "Duelos / Batallas 1v1",
+    "descripcion": "Juegos 1 contra 1: la app o el anfitrión elige a dos jugadores al azar para un micro-reto o un bracket de eliminación."
+  },
+  {
+    "id": "parejas",
+    "nombre": "Parejas",
+    "descripcion": "Juegos diseñados para 2 personas, centrados en conexión, complicidad y contacto físico suave."
+  },
+  {
+    "id": "bebida",
+    "nombre": "Bebida",
+    "descripcion": "Dinámicas centradas en tomar: reglas activas, cartas y objetos físicos con consecuencia de trago."
+  },
+  {
+    "id": "familiares",
+    "nombre": "Sin alcohol / Familiares",
+    "descripcion": "Juegos 100% sin alcohol, aptos para todo público, pensados para reuniones con distintas generaciones."
+  }
+]

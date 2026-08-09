@@ -1,0 +1,57 @@
+{
+  "nombre": "Torneo de la Noche",
+  "categoria": "duelos",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "8",
+    "maximo": 16,
+    "alSuperarMaximo": "armar 2 brackets paralelos más chicos y cruzar solo a los 2 campeones en una final única, en vez de un bracket gigante de una sola rama (más de 16 hace el torneo demasiado largo para el ritmo de una fiesta)."
+  },
+  "materiales": "ninguno — la app arma el bracket automáticamente.",
+  "duracionEstimada": "30–60 min, según cantidad de jugadores.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cumpleanos",
+    "despedida-de-soltero"
+  ],
+  "reglas": [
+    "Se arma un bracket de eliminación directa con todos los presentes.",
+    "Los duelos se resuelven de a uno por vez usando la mecánica de Duelo Relámpago.",
+    "Quien pierde queda eliminado del torneo (puede sumar una penitencia extra, según se acuerde).",
+    "Se avanza ronda por ronda hasta definir un campeón.",
+    "El campeón puede ganar un privilegio simbólico para el resto de la noche (elegir la próxima canción, saltarse una ronda de penitencia, etc.)."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Bracket con premio simbólico para el campeón vs. sin premio (solo honor)."
+    },
+    {
+      "descripcion": "Formato \"todos contra todos\" en vez de bracket, para grupos chicos."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Torneo de la Noche: bracket de eliminación para fiestas",
+    "metaDescripcion": "Armá un torneo de eliminación directa con todos tus amigos: duelos random hasta definir un campeón de la noche.",
+    "keywordObjetivo": "torneo de juegos para fiesta eliminacion directa",
+    "preguntaAIOverview": "¿Cómo se arma un torneo de eliminación para una fiesta?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura un torneo completo?",
+      "respuesta": "Entre 30 y 60 minutos, según la cantidad de jugadores."
+    },
+    {
+      "pregunta": "¿Qué gana el campeón?",
+      "respuesta": "Un privilegio simbólico para el resto de la noche, definido por el grupo."
+    }
+  ],
+  "bancoContenido": "compartido",
+  "bancoContenidoRef": "duelo-relampago"
+}

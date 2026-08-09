@@ -1,0 +1,54 @@
+{
+  "nombre": "Cadena de Cumplidos",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "10",
+    "maximo": 25,
+    "alSuperarMaximo": "limitar a un cumplido corto (una frase) en vez de dar tiempo abierto, para que la ronda no se alargue demasiado."
+  },
+  "materiales": "ninguno.",
+  "duracionEstimada": "10–15 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar",
+    "afterwork",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "Los jugadores se ubican en círculo.",
+    "Cada jugador dice algo positivo o un cumplido genuino sobre la persona a su derecha.",
+    "Se continúa hasta completar la vuelta completa.",
+    "Funciona bien como cierre de noche o como dinámica de team building."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Cumplido temático (ej. \"algo que aprendiste de esta persona hoy\")."
+    },
+    {
+      "descripcion": "Versión escrita: cada uno escribe el cumplido en un papel y se lo entrega, para quienes prefieren no decirlo en voz alta."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Cadena de Cumplidos: dinámica de cierre para fiestas y equipos",
+    "metaDescripcion": "Cómo hacer la Cadena de Cumplidos: una vuelta de cumplidos genuinos para cerrar una fiesta o actividad de equipo.",
+    "keywordObjetivo": "dinamica de cumplidos para cerrar una reunion",
+    "preguntaAIOverview": "¿Qué dinámica sirve para cerrar una fiesta o reunión de forma positiva?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es un buen cierre de fiesta?",
+      "respuesta": "Sí, está pensada específicamente como dinámica de cierre, ligera y sin consecuencias negativas."
+    },
+    {
+      "pregunta": "¿Se puede hacer de forma escrita en vez de hablada?",
+      "respuesta": "Sí, existe una variante donde el cumplido se escribe y se entrega en papel."
+    }
+  ],
+  "bancoContenido": "propio"
+}

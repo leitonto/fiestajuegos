@@ -1,0 +1,53 @@
+{
+  "nombre": "El Detective de la Mesa",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "7",
+    "maximo": 14,
+    "alSuperarMaximo": "usar 2 \"despistados\" en vez de 1, igual que en la versión adulta, para mantener el ritmo."
+  },
+  "materiales": "ninguno (o celular para asignar en privado).",
+  "duracionEstimada": "15–20 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar"
+  ],
+  "reglas": [
+    "Todos reciben la misma palabra o tema, excepto un jugador (el \"despistado\").",
+    "Por turnos, dan pistas simples y directas relacionadas con la palabra.",
+    "El grupo vota quién creen que es el despistado.",
+    "Si aciertan, gana el grupo.",
+    "Si el despistado logra disimular bien y adivinar la palabra al final, gana él o ella."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Pistas por dibujo en vez de palabra hablada, para chicos más pequeños."
+    },
+    {
+      "descripcion": "Temas ajustables por edad."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "El Detective de la Mesa: versión familiar del juego del impostor",
+    "metaDescripcion": "Cómo jugar El Detective de la Mesa: descubrí quién no conoce la palabra secreta, con pistas simples aptas para chicos.",
+    "keywordObjetivo": "juego del impostor para niños y familia",
+    "preguntaAIOverview": "¿Hay una versión de El Impostor apta para niños?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿A partir de qué edad se puede jugar?",
+      "respuesta": "Funciona bien desde que los chicos pueden dar pistas simples, aproximadamente 7-8 años en adelante."
+    },
+    {
+      "pregunta": "¿En qué se diferencia de El Impostor?",
+      "respuesta": "Usa pistas más claras y directas, y temas ajustados por edad."
+    }
+  ],
+  "bancoContenido": "propio"
+}

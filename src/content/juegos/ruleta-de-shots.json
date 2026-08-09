@@ -1,0 +1,54 @@
+{
+  "nombre": "Ruleta de Shots",
+  "categoria": "bebida",
+  "jugadores": {
+    "minimo": 3,
+    "ideal": "8",
+    "maximo": 15,
+    "alSuperarMaximo": "aumentar la cantidad de reglas activas simultáneas para que el juego siga siendo dinámico con más gente rotando, en vez de cambiar la penitencia base."
+  },
+  "materiales": "ninguno — la app genera las combinaciones.",
+  "duracionEstimada": "continua/abierta — puede jugarse toda la noche como dinámica de fondo.",
+  "intensidad": [
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "con",
+  "ocasiones": [
+    "despedida-de-soltero",
+    "cumpleanos"
+  ],
+  "reglas": [
+    "La app genera una combinación aleatoria de reglas activas (ej. \"el que se toca la nariz toma\", \"está prohibido decir 'sí'\").",
+    "Las reglas se acumulan durante la sesión.",
+    "Cada cierto tiempo (o cada ronda de otro juego) se suma una regla nueva.",
+    "Quien rompe una regla activa, toma."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Reglas con temporizador que expiran después de X minutos."
+    },
+    {
+      "descripcion": "Combinable con otros juegos como capa de fondo durante toda la fiesta."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "Ruleta de Shots: reglas activas aleatorias para tomar en fiesta",
+    "metaDescripcion": "Cómo jugar Ruleta de Shots: reglas que se acumulan durante la noche y que hay que recordar. Ideal como dinámica de fondo.",
+    "keywordObjetivo": "ruleta de reglas para tomar en fiesta",
+    "preguntaAIOverview": "¿Qué es un juego de reglas para tomar en una fiesta?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es un juego independiente o de fondo?",
+      "respuesta": "Funciona mejor como capa de fondo, corriendo en paralelo a otros juegos de la sesión."
+    },
+    {
+      "pregunta": "¿Cuántas reglas se acumulan?",
+      "respuesta": "No hay límite fijo — se recomienda un tope manual (ej. 5-6 activas) para que sigan siendo recordables."
+    }
+  ],
+  "bancoContenido": "propio"
+}

@@ -1,0 +1,54 @@
+{
+  "nombre": "El Contrato",
+  "categoria": "parejas",
+  "jugadores": {
+    "minimo": 2,
+    "ideal": "2",
+    "maximo": 2,
+    "alSuperarMaximo": ""
+  },
+  "materiales": "ninguno (opcional: anotarlo en el celular para no olvidarlo).",
+  "duracionEstimada": "5–10 min para pactar; el efecto dura el resto de la noche.",
+  "intensidad": [
+    "suave",
+    "normal",
+    "picante"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "adaptable",
+  "ocasiones": [
+    "cita"
+  ],
+  "reglas": [
+    "Antes de empezar la noche, la pareja pacta una o más reglas activas que se cumplen durante el resto del evento (ej. \"cada vez que uno diga cierta palabra clave, el otro toma un trago\").",
+    "Ambos deben estar de acuerdo con la regla antes de activarla.",
+    "La regla queda vigente el resto de la noche (o el tiempo pactado).",
+    "Se puede pactar más de una regla a la vez."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Reglas con límite de tiempo (ej. solo la primera hora)."
+    },
+    {
+      "descripcion": "Reglas sin alcohol (ej. \"quien diga la palabra debe hacer un cumplido\")."
+    }
+  ],
+  "disclaimer": true,
+  "seo": {
+    "titulo": "El Contrato: reglas secretas para parejas en una fiesta",
+    "metaDescripcion": "Cómo jugar El Contrato: pacten una regla activa que dura toda la noche. Con y sin alcohol, fácil de adaptar.",
+    "keywordObjetivo": "reglas secretas para parejas en fiesta juego",
+    "preguntaAIOverview": "¿Qué es un juego de reglas secretas para parejas en una fiesta?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura la regla activa?",
+      "respuesta": "Por defecto, el resto de la noche, aunque se puede pactar un límite de tiempo."
+    },
+    {
+      "pregunta": "¿Se puede pactar más de una regla?",
+      "respuesta": "Sí, siempre que ambos estén de acuerdo."
+    }
+  ],
+  "bancoContenido": "propio"
+}

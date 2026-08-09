@@ -1,0 +1,53 @@
+{
+  "nombre": "Desafío Físico Grupal",
+  "categoria": "familiares",
+  "jugadores": {
+    "minimo": 4,
+    "ideal": "10",
+    "maximo": 25,
+    "alSuperarMaximo": "dividir en equipos que compiten en paralelo por tiempo o cantidad, en vez de un desafío secuencial uno por uno."
+  },
+  "materiales": "ninguno (depende del reto — algunos usan objetos cotidianos).",
+  "duracionEstimada": "15–25 min.",
+  "intensidad": [
+    "suave"
+  ],
+  "intensidadEscala": false,
+  "alcohol": "sin",
+  "ocasiones": [
+    "reunion-familiar",
+    "afterwork"
+  ],
+  "reglas": [
+    "Se propone un reto físico simple (ej. sentadillas, carrera de relevos corta, equilibrio).",
+    "Se cumple por turnos o en equipos.",
+    "Quien no completa el reto puede repetir, o simplemente suma un punto en contra, sin consecuencia de bebida.",
+    "Se continúa con un nuevo reto."
+  ],
+  "variantes": [
+    {
+      "descripcion": "Modo equipos vs. modo individual."
+    },
+    {
+      "descripcion": "Retos ajustables según edad o capacidad física del grupo."
+    }
+  ],
+  "disclaimer": false,
+  "seo": {
+    "titulo": "Desafío Físico Grupal: retos sin alcohol para jugar en equipo",
+    "metaDescripcion": "Cómo jugar Desafío Físico Grupal: retos físicos simples ajustables por edad, ideales para reuniones familiares o de oficina.",
+    "keywordObjetivo": "juegos con retos fisicos para grupo sin alcohol",
+    "preguntaAIOverview": "¿Qué juegos de retos físicos hay para jugar en grupo sin alcohol?"
+  },
+  "faq": [
+    {
+      "pregunta": "¿Es apto para todas las edades?",
+      "respuesta": "Sí, los retos son ajustables según la edad y capacidad física de los participantes."
+    },
+    {
+      "pregunta": "¿Necesito materiales especiales?",
+      "respuesta": "No, la mayoría de los retos no requiere objetos; algunos usan elementos cotidianos."
+    }
+  ],
+  "bancoContenido": "propio"
+}
