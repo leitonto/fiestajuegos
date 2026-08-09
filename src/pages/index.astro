@@ -1,0 +1,24 @@
+---
+import '../styles/global.css';
+import { getCollection } from 'astro:content';
+
+const juegos = await getCollection('juegos');
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>FiestaJuegos</title>
+	</head>
+	<body>
+		<h1 class="text-4xl font-bold text-center mt-20">FiestaJuegos 🎉</h1>
+		<p class="text-center mt-4">{juegos.length} juego(s) cargado(s) desde el catálogo:</p>
+		<ul class="max-w-md mx-auto mt-8 space-y-2">
+			{juegos.map((juego) => (
+				<li class="border-2 border-black rounded-lg p-3">{juego.data.nombre} — {juego.data.materiales}</li>
+			))}
+		</ul>
+	</body>
+</html>
