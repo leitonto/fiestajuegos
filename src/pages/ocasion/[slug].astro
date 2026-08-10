@@ -1,0 +1,56 @@
+---
+// src/pages/ocasion/[slug].astro
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import GameCard from "../../components/GameCard.astro";
+
+export async function getStaticPaths() {
+  const ocasiones = await getCollection("ocasiones");
+  return ocasiones.map((o) => ({
+    params: { slug: o.id },
+    props: { ocasion: o },
+  }));
+}
+
+const { ocasion } = Astro.props;
+const d = ocasion.data;
+
+const todosJuegos = await getCollection("juegos");
+const categorias = await getCollection("categorias");
+const nombrePorCategoria = Object.fromEntries(categorias.map((c) => [c.id, c.data.nombre]));
+const juegosDeEstaOcasion = d.juegosAncla
+  .map((slug) => todosJuegos.find((j) => j.id === slug))
+  .filter((j): j is NonNullable<typeof j> => j !== undefined);
+const totalJuegos = todosJuegos.length;
+---
+
+<Layout title={`Juegos para ${d.nombre} | FiestaJuegos`} description={`${juegosDeEstaOcasion.length} juegos de fiesta ideales para ${d.nombre.toLowerCase()}. ${d.keywordPilar}, con y sin alcohol.`}>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <nav class="text-sm text-texto-secundario mb-6" aria-label="Ruta de navegación">
+      <a href="/" class="hover:text-texto hover:underline">Inicio</a>
+      <span class="mx-1.5">›</span>
+      <span class="text-texto">{d.nombre}</span>
+    </nav>
+
+    <h1 class="font-display font-extrabold text-3xl sm:text-4xl">Juegos para {d.nombre.toLowerCase()}</h1>
+
+    {d.pregunta && (
+      <section class="mt-6">
+        <h2 class="font-display font-bold text-2xl">{d.pregunta}</h2>
+        {d.respuestaDirecta && <p class="mt-3 text-lg leading-relaxed text-texto-secundario">{d.respuestaDirecta}</p>}
+      </section>
+    )}
+
+    <div class="mt-10 grid sm:grid-cols-2 gap-4">
+      {juegosDeEstaOcasion.map((j) => (
+        <GameCard juego={j} categoriaNombre={nombrePorCategoria[j.data.categoria]} />
+      ))}
+    </div>
+
+    <p class="mt-10 text-center">
+      <a href="/juegos" class="underline text-texto-secundario hover:text-texto">
+        Ver los {totalJuegos} juegos del catálogo completo
+      </a>
+    </p>
+  </div>
+</Layout>

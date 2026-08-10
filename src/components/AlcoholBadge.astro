@@ -1,0 +1,19 @@
+---
+// src/components/AlcoholBadge.astro
+// diseno-visual-fiestajuegos.md §7.2
+import Icon from "./Icon.astro";
+
+interface Props {
+  alcohol: "con" | "sin" | "adaptable";
+}
+
+const { alcohol } = Astro.props;
+
+const ES_SIN = alcohol === "sin";
+const ETIQUETA = alcohol === "sin" ? "Sin alcohol" : alcohol === "con" ? "Con alcohol" : "Con o sin alcohol";
+---
+
+<span class:list={["inline-flex items-center gap-1.5 font-medium", ES_SIN ? "text-suave" : "text-secundario"]}>
+  <Icon name={ES_SIN ? "leaf" : "glass"} size={18} />
+  {ETIQUETA}
+</span>

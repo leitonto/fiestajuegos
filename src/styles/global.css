@@ -1,1 +1,72 @@
 @import "tailwindcss";
+
+/*
+  Sistema de dos modos — diseno-visual-fiestajuegos.md §4.
+  Modo Cálido = default (:root). Modo Fiesta = override completo bajo [data-theme="fiesta"].
+  Mismos roles funcionales en los dos modos, distinta intensidad de fondo/contraste —
+  es la misma marca en dos momentos, no dos paletas independientes (§4.2 del doc).
+*/
+@theme {
+  --color-primario: #6A2CFF;
+  --color-secundario: #00C2A8;
+  --color-categoria: #1E90FF;
+  --color-acento: #FF2D6D;
+  --color-neutro: #FFC933;
+  --color-suave: #22C55E;
+  --color-normal: #FB923C;
+  --color-picante: #E53935;
+  --color-sinalcohol: #00B894;
+  --color-fondo: #FFF8F0;
+  --color-superficie: #FFFDF7;
+  --color-borde: #111827;
+  --color-texto: #111827;
+  --color-texto-secundario: #4B5563;
+
+  --font-display: "Unbounded", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+}
+
+[data-theme="fiesta"] {
+  --color-primario: #8A3FFF;
+  --color-secundario: #00FFC2;
+  --color-categoria: #38B6FF;
+  --color-acento: #FF3DAE;
+  --color-neutro: #FFD60A;
+  --color-suave: #2DFF7A;
+  --color-normal: #FF9A1F;
+  --color-picante: #FF3B3B;
+  --color-sinalcohol: #00E5A8;
+  --color-fondo: #0B0F14;
+  --color-superficie: #121821;
+  --color-borde: #FFFFFF;
+  --color-texto: #F2F5F9;
+  --color-texto-secundario: #A8B0BC;
+}
+
+/* Transición suave al cambiar de modo, sin animar todo lo demás */
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Respeta preferencia de movimiento reducido del sistema (piso de calidad,
+   independiente de que el modo de color NO siga prefers-color-scheme a propósito) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Toggle de tema: dos íconos en el mismo botón, visibilidad controlada por el
+   atributo data-theme del <html> — reactivo sin JS extra más allá del click handler. */
+.icon-fiesta { display: none; }
+[data-theme="fiesta"] .icon-fiesta { display: inline-flex; }
+[data-theme="fiesta"] .icon-calido { display: none; }
+
+:focus-visible {
+  outline: 3px solid var(--color-primario);
+  outline-offset: 2px;
+}

@@ -1,0 +1,93 @@
+---
+// src/layouts/Layout.astro
+import Icon from "../components/Icon.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Anti-FOUC: fija el modo de color ANTES del primer render, leyendo la
+         misma clave de localStorage que usa el resto del producto (Ideas §5.3,
+         Diseño Visual §9). Deliberadamente NO usa prefers-color-scheme — el modo
+         es una elección de marca, no de accesibilidad del sistema (Diseño Visual §4.3). -->
+    <script is:inline>
+      (function () {
+        var t = localStorage.getItem("fiestajuegos_theme") || "calido";
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+
+  </head>
+
+  <body class="font-body min-h-screen flex flex-col">
+    <header class="border-b-2 border-borde">
+      <div class="max-w-3xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="font-display font-extrabold text-xl tracking-tight">
+          FiestaJuegos
+        </a>
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="Cambiar a Modo Fiesta"
+          class="flex items-center justify-center w-10 h-10 rounded-xl border-2 border-borde hover:bg-superficie transition-colors"
+        >
+          <span class="icon-calido"><Icon name="sun" size={20} /></span>
+          <span class="icon-fiesta"><Icon name="bolt" size={20} /></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="border-t-2 border-borde mt-16">
+      <div class="max-w-3xl mx-auto px-4 py-8 text-sm text-texto-secundario space-y-4">
+        <p>
+          El contenido de este sitio es de carácter lúdico y recreativo. FiestaJuegos no
+          se hace responsable del uso que las personas usuarias hagan de los juegos y
+          dinámicas aquí descritos. Recomendamos consumo responsable, no conducir bajo
+          los efectos del alcohol, y respetar siempre los límites y el consentimiento de
+          todas las personas participantes. Contenido para mayores de 18 años en las
+          secciones que incluyen alcohol.
+        </p>
+        <nav class="flex gap-4 flex-wrap">
+          <a href="/legal/privacidad" class="underline hover:text-texto">Política de Privacidad</a>
+          <a href="/legal/cookies" class="underline hover:text-texto">Política de Cookies</a>
+          <a href="/legal/terminos" class="underline hover:text-texto">Términos de Uso</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById("theme-toggle");
+      btn?.addEventListener("click", () => {
+        const actual = document.documentElement.dataset.theme === "fiesta" ? "fiesta" : "calido";
+        const nuevo = actual === "fiesta" ? "calido" : "fiesta";
+        document.documentElement.dataset.theme = nuevo;
+        localStorage.setItem("fiestajuegos_theme", nuevo);
+      });
+    </script>
+  </body>
+</html>

@@ -42,6 +42,12 @@ const juegos = defineCollection({
       metaDescripcion: z.string(),
       keywordObjetivo: z.string(),
       preguntaAIOverview: z.string(),
+      // Ninguno de los dos existe todavía en los datos migrados — Catálogo/Marketing
+      // nunca los formalizó como campo propio pese a estar en la plantilla de página
+      // (Marketing §5.3, puntos 1 y 3). Opcionales a propósito: la página los renderiza
+      // si están, y los omite en vez de inventar copy si no están.
+      gancho: z.string().optional(),
+      respuestaDirecta: z.string().optional(),
     }),
     faq: z.array(z.object({
       pregunta: z.string(),
@@ -66,6 +72,8 @@ const ocasiones = defineCollection({
     icono: z.string(),                 // nombre de ícono Tabler, ej. "ti-cake"
     keywordPilar: z.string(),
     juegosAncla: z.array(z.string()),  // ids de la colección `juegos`
+    pregunta: z.string().optional(),
+    respuestaDirecta: z.string().optional(),
   }),
 });
 

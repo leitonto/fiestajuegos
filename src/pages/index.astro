@@ -1,24 +1,163 @@
 ---
-import '../styles/global.css';
-import { getCollection } from 'astro:content';
+// src/pages/index.astro
+import Layout from "../layouts/Layout.astro";
+import Icon from "../components/Icon.astro";
+import { getCollection } from "astro:content";
+import { getStats } from "../lib/stats";
 
-const juegos = await getCollection('juegos');
+const juegos = await getCollection("juegos");
+const ocasiones = await getCollection("ocasiones");
+const categorias = await getCollection("categorias");
+const stats = await getStats();
+
+const juegosParaFiltro = juegos.map((j) => ({
+  slug: j.id,
+  minimo: j.data.jugadores.minimo,
+  maximo: j.data.jugadores.maximo,
+  alcohol: j.data.alcohol,
+  intensidad: j.data.intensidad,
+  escala: j.data.intensidadEscala,
+}));
 ---
 
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<title>FiestaJuegos</title>
-	</head>
-	<body>
-		<h1 class="text-4xl font-bold text-center mt-20">FiestaJuegos 🎉</h1>
-		<p class="text-center mt-4">{juegos.length} juego(s) cargado(s) desde el catálogo:</p>
-		<ul class="max-w-md mx-auto mt-8 space-y-2">
-			{juegos.map((juego) => (
-				<li class="border-2 border-black rounded-lg p-3">{juego.data.nombre} — {juego.data.materiales}</li>
-			))}
-		</ul>
-	</body>
-</html>
+<Layout
+  title="FiestaJuegos — Juegos de fiesta para jugar en grupo, con o sin alcohol"
+  description="34 juegos de fiesta gratis para jugar en español: con amigos, en pareja o en familia. Elegí cuántos son, con o sin alcohol, y arrancá en segundos."
+>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+    <div class="text-center">
+      <h1 class="font-display font-extrabold text-3xl sm:text-4xl">
+        El juego para esta noche, elegido en 10 segundos
+      </h1>
+      <p class="mt-3 text-texto-secundario text-lg">
+        Sin descargas, sin registro. Elegí y arrancás.
+      </p>
+    </div>
+
+    <div id="onboarding" class="mt-8 border-2 border-borde rounded-xl bg-superficie p-5 sm:p-6">
+      <div class="flex items-center justify-between">
+        <span class="font-bold">Cuántos son</span>
+        <div class="flex items-center gap-3">
+          <button type="button" id="jugadores-menos" aria-label="Menos jugadores" class="w-9 h-9 rounded-lg border-2 border-borde hover:bg-fondo font-bold text-lg leading-none">−</button>
+          <span id="jugadores-valor" class="w-8 text-center font-bold text-lg">6</span>
+          <button type="button" id="jugadores-mas" aria-label="Más jugadores" class="w-9 h-9 rounded-lg border-2 border-borde hover:bg-fondo font-bold text-lg leading-none">+</button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between mt-5">
+        <span class="font-bold">Con o sin alcohol</span>
+        <div role="group" aria-label="Con o sin alcohol" class="inline-flex rounded-lg border-2 border-borde overflow-hidden">
+          <button type="button" data-alcohol-valor="con" aria-pressed="true" class="px-3 py-1.5 text-sm font-medium">Con</button>
+          <button type="button" data-alcohol-valor="sin" aria-pressed="false" class="px-3 py-1.5 text-sm font-medium border-l-2 border-borde">Sin</button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between mt-5">
+        <span class="font-bold">Intensidad</span>
+        <div role="group" aria-label="Intensidad" class="inline-flex rounded-lg border-2 border-borde overflow-hidden">
+          <button type="button" data-intensidad-valor="suave" aria-pressed="false" class="px-3 py-1.5 text-sm font-medium">Suave</button>
+          <button type="button" data-intensidad-valor="normal" aria-pressed="true" class="px-3 py-1.5 text-sm font-medium border-l-2 border-borde">Normal</button>
+          <button type="button" data-intensidad-valor="picante" aria-pressed="false" class="px-3 py-1.5 text-sm font-medium border-l-2 border-borde">Picante</button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between mt-5">
+        <span class="font-bold">Cómo juegan</span>
+        <div class="inline-flex rounded-lg border-2 border-borde overflow-hidden">
+          <span class="px-3 py-1.5 text-sm font-medium bg-primario text-white inline-flex items-center gap-1.5">
+            <Icon name="device-mobile" size={15} />
+            Un solo teléfono
+          </span>
+          <span class="px-3 py-1.5 text-sm text-texto-secundario border-l-2 border-borde opacity-60">
+            Sala con código — Próximamente
+          </span>
+        </div>
+      </div>
+
+      <button id="empezar-ya" type="button" class="mt-7 w-full bg-primario text-white font-display font-extrabold text-xl py-4 rounded-xl hover:opacity-90 transition-opacity">
+        Empezar ya
+      </button>
+
+      <p class="mt-4 text-center text-sm">
+        <a href="/juegos" class="underline text-texto-secundario hover:text-texto">Ver el catálogo completo</a>
+      </p>
+    </div>
+
+    <p class="mt-8 text-center text-sm text-texto-secundario">
+      {stats.juegos} juegos · {stats.retos} retos{stats.articulos ? ` · ${stats.articulos} artículos` : ""}
+    </p>
+
+    <section class="mt-14">
+      <h2 class="font-display font-bold text-2xl mb-5">¿Para qué momento?</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {ocasiones.map((o) => (
+          <a href={`/ocasion/${o.id}`} class="border-2 border-borde rounded-xl p-4 text-center bg-superficie hover:-translate-y-0.5 hover:shadow-md transition-all">
+            <span class="font-display font-bold">{o.data.nombre}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <p class="mt-10 text-center text-sm text-texto-secundario">
+      {categorias.map((c, i) => (
+        <>
+          <a href={`/categoria/${c.id}`} class="underline hover:text-texto">{c.data.nombre}</a>
+          {i < categorias.length - 1 ? " · " : ""}
+        </>
+      ))}
+    </p>
+  </div>
+</Layout>
+
+<script define:vars={{ juegosParaFiltro }}>
+  const JUEGOS = juegosParaFiltro;
+  let jugadores = 6;
+  let alcohol = "con";
+  let intensidad = "normal";
+
+  const valorEl = document.getElementById("jugadores-valor");
+  document.getElementById("jugadores-menos").addEventListener("click", () => {
+    jugadores = Math.max(2, jugadores - 1);
+    valorEl.textContent = String(jugadores);
+  });
+  document.getElementById("jugadores-mas").addEventListener("click", () => {
+    jugadores = Math.min(30, jugadores + 1);
+    valorEl.textContent = String(jugadores);
+  });
+
+  function wireGrupo(selector, onSet) {
+    const botones = document.querySelectorAll(selector);
+    botones.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        botones.forEach((b) => b.setAttribute("aria-pressed", "false"));
+        btn.setAttribute("aria-pressed", "true");
+        onSet(btn);
+        botones.forEach((b) => {
+          const on = b.getAttribute("aria-pressed") === "true";
+          b.classList.toggle("bg-primario", on);
+          b.classList.toggle("text-white", on);
+        });
+      });
+    });
+    botones.forEach((b) => {
+      const on = b.getAttribute("aria-pressed") === "true";
+      b.classList.toggle("bg-primario", on);
+      b.classList.toggle("text-white", on);
+    });
+  }
+
+  wireGrupo("[data-alcohol-valor]", (btn) => (alcohol = btn.dataset.alcoholValor));
+  wireGrupo("[data-intensidad-valor]", (btn) => (intensidad = btn.dataset.intensidadValor));
+
+  document.getElementById("empezar-ya").addEventListener("click", () => {
+    const candidatos = JUEGOS.filter((j) => {
+      const cabenJugadores = jugadores >= j.minimo && jugadores <= j.maximo;
+      const cumpleAlcohol = j.alcohol === "adaptable" || j.alcohol === alcohol;
+      const cumpleIntensidad = j.escala || j.intensidad.includes(intensidad);
+      return cabenJugadores && cumpleAlcohol && cumpleIntensidad;
+    });
+    const pool = candidatos.length > 0 ? candidatos : JUEGOS;
+    const elegido = pool[Math.floor(Math.random() * pool.length)];
+    window.location.href = "/juegos/" + elegido.slug;
+  });
+</script>

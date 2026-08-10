@@ -1,0 +1,36 @@
+---
+// src/components/GameCard.astro
+import type { CollectionEntry } from "astro:content";
+import Icon from "./Icon.astro";
+import IntensidadBadge from "./IntensidadBadge.astro";
+import AlcoholBadge from "./AlcoholBadge.astro";
+
+interface Props {
+  juego: CollectionEntry<"juegos">;
+  categoriaNombre?: string;
+}
+
+const { juego, categoriaNombre } = Astro.props;
+const d = juego.data;
+---
+
+<a href={`/juegos/${juego.id}`} class="block border-2 border-borde rounded-xl p-4 bg-superficie hover:-translate-y-0.5 hover:shadow-md transition-all">
+  {categoriaNombre && (
+    <p class="text-xs uppercase tracking-wide text-categoria font-bold mb-1">{categoriaNombre}</p>
+  )}
+  <h3 class="font-display font-bold text-lg">{d.nombre}</h3>
+  <p class="text-sm text-texto-secundario mt-1 flex items-center gap-3 flex-wrap">
+    <span class="inline-flex items-center gap-1">
+      <Icon name="users" size={15} />
+      {d.jugadores.minimo}–{d.jugadores.maximo}
+    </span>
+    <span class="inline-flex items-center gap-1">
+      <Icon name="clock" size={15} />
+      {d.duracionEstimada}
+    </span>
+  </p>
+  <div class="mt-3 flex items-center justify-between">
+    <IntensidadBadge niveles={d.intensidad} escala={d.intensidadEscala} />
+    <AlcoholBadge alcohol={d.alcohol} />
+  </div>
+</a>
