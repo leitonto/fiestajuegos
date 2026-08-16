@@ -40,7 +40,9 @@
     "titulo": "Torneo de la Noche: bracket de eliminación para fiestas",
     "metaDescripcion": "Armá un torneo de eliminación directa con todos tus amigos: duelos random hasta definir un campeón de la noche.",
     "keywordObjetivo": "torneo de juegos para fiesta eliminacion directa",
-    "preguntaAIOverview": "¿Cómo se arma un torneo de eliminación para una fiesta?"
+    "preguntaAIOverview": "¿Cómo se arma un torneo de eliminación para una fiesta?",
+    "gancho": "Un bracket armado al instante, duelos random hasta el campeón",
+    "respuestaDirecta": "La app arma un bracket de eliminación directa con todos los presentes, y los duelos se resuelven de a uno usando la mecánica de Duelo Relámpago. Quien pierde queda eliminado; el último en quedar en pie se corona campeón y gana un privilegio simbólico para el resto de la noche."
   },
   "faq": [
     {

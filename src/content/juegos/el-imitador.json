@@ -47,7 +47,9 @@
     "titulo": "El Imitador: juego de roleplay y adivinanza para fiestas",
     "metaDescripcion": "Cómo jugar El Imitador: actuá un personaje y que el grupo adivine quién es. Incluye modo celebridades y modo grupo (con recomendación de uso).",
     "keywordObjetivo": "juego el imitador roleplay para fiesta",
-    "preguntaAIOverview": "¿Cómo se juega El Imitador imitando personajes?"
+    "preguntaAIOverview": "¿Cómo se juega El Imitador imitando personajes?",
+    "gancho": "Actuar un personaje secreto mientras el grupo adivina quién es",
+    "respuestaDirecta": "Se asigna en secreto un personaje —una celebridad, un arquetipo o, en la variante 'Imitador del Grupo', alguien presente en la fiesta— y el jugador actúa una escena breve interpretándolo. Quien adivina primero suma un punto; quien no logra que lo identifiquen bebe o cumple una prenda."
   },
   "faq": [
     {

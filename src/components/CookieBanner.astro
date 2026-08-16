@@ -1,0 +1,94 @@
+---
+// src/components/CookieBanner.astro
+// legal-fiestajuegos.md §5 — texto exacto. Se muestra recién después de resolver el
+// age-gate (no los dos modales/banners a la vez).
+---
+
+<div id="cookie-banner" class="fixed inset-x-0 bottom-0 z-40 p-4">
+  <div class="max-w-2xl mx-auto bg-fondo border-2 border-borde rounded-xl p-5">
+    <div id="cookie-banner-simple">
+      <p class="text-sm">
+        Usamos almacenamiento local para que el sitio funcione, y (con tu permiso)
+        cookies para entender cómo se usa y mostrar anuncios relevantes.
+      </p>
+      <div class="mt-4 flex flex-wrap items-center gap-3">
+        <button
+          id="cookie-aceptar"
+          type="button"
+          class="border-2 border-borde font-bold px-4 py-2 rounded-lg hover:bg-superficie transition-colors"
+        >
+          Aceptar todas
+        </button>
+        <button
+          id="cookie-rechazar"
+          type="button"
+          class="border-2 border-borde font-bold px-4 py-2 rounded-lg hover:bg-superficie transition-colors"
+        >
+          Rechazar no esenciales
+        </button>
+        <button id="cookie-personalizar" type="button" class="text-sm underline text-texto-secundario">
+          Personalizar
+        </button>
+      </div>
+    </div>
+
+    <div id="cookie-banner-detalle" class="hidden">
+      <div class="space-y-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="font-bold text-sm">Necesarias</p>
+            <p class="text-xs text-texto-secundario">Age-gate y preferencias de sesión. Siempre activas.</p>
+          </div>
+          <input type="checkbox" checked disabled class="w-5 h-5" aria-label="Necesarias, siempre activas" />
+        </div>
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="font-bold text-sm">Analíticas</p>
+            <p class="text-xs text-texto-secundario">Nos ayuda a entender cómo se usa el sitio.</p>
+          </div>
+          <input type="checkbox" id="cookie-check-analiticas" class="w-5 h-5" aria-label="Analíticas" />
+        </div>
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="font-bold text-sm">Publicidad</p>
+            <p class="text-xs text-texto-secundario">Anuncios relevantes según tu navegación.</p>
+          </div>
+          <input type="checkbox" id="cookie-check-publicidad" class="w-5 h-5" aria-label="Publicidad" />
+        </div>
+      </div>
+      <button
+        id="cookie-guardar"
+        type="button"
+        class="mt-4 w-full border-2 border-borde font-bold py-2.5 rounded-lg hover:bg-superficie transition-colors"
+      >
+        Guardar preferencias
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const CLAVE = "fiestajuegos_cookie_consent";
+
+  function guardarConsentimiento(analiticas: boolean, publicidad: boolean) {
+    localStorage.setItem(
+      CLAVE,
+      JSON.stringify({ necesarias: true, analiticas, publicidad, fecha: Date.now() })
+    );
+    document.documentElement.classList.remove("cookie-banner-pending");
+  }
+
+  document.getElementById("cookie-aceptar")?.addEventListener("click", () => guardarConsentimiento(true, true));
+  document.getElementById("cookie-rechazar")?.addEventListener("click", () => guardarConsentimiento(false, false));
+
+  document.getElementById("cookie-personalizar")?.addEventListener("click", () => {
+    document.getElementById("cookie-banner-simple")?.classList.add("hidden");
+    document.getElementById("cookie-banner-detalle")?.classList.remove("hidden");
+  });
+
+  document.getElementById("cookie-guardar")?.addEventListener("click", () => {
+    const analiticas = (document.getElementById("cookie-check-analiticas") as HTMLInputElement)?.checked ?? false;
+    const publicidad = (document.getElementById("cookie-check-publicidad") as HTMLInputElement)?.checked ?? false;
+    guardarConsentimiento(analiticas, publicidad);
+  });
+</script>

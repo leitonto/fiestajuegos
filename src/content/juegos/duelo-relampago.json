@@ -39,7 +39,9 @@
     "titulo": "Duelo Relámpago: retos 1 contra 1 al azar para fiestas",
     "metaDescripcion": "Cómo jugar Duelo Relámpago: la app elige a dos jugadores al azar para un micro-reto directo. Rápido, con y sin alcohol.",
     "keywordObjetivo": "juego de duelos 1 contra 1 para fiesta",
-    "preguntaAIOverview": "¿Cómo se juega un duelo 1 contra 1 en una fiesta?"
+    "preguntaAIOverview": "¿Cómo se juega un duelo 1 contra 1 en una fiesta?",
+    "gancho": "Dos al azar, un micro-reto directo, un solo perdedor",
+    "respuestaDirecta": "La app (o el anfitrión) elige a dos jugadores al azar y les asigna un micro-reto directo — pulso, mirada fija sin reír, rima improvisada. Quien pierde el duelo bebe o cumple una prenda, y se repite eligiendo nuevas parejas al azar."
   },
   "faq": [
     {

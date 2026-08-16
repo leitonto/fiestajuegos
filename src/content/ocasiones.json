@@ -11,7 +11,9 @@
       "sexto-sentido",
       "bomba-con-retos",
       "duelo-relampago"
-    ]
+    ],
+    "pregunta": "¿Qué juegos son buenos para la previa antes de salir de fiesta?",
+    "respuestaDirecta": "En la previa lo que mejor funciona son juegos de ronda corta, que se puedan arrancar y cortar en cualquier momento sin que nadie tenga que comprometerse a una partida larga mientras el grupo se termina de juntar. Ganan los que no piden nada más que el celular y dan resultado en un par de minutos."
   },
   {
     "id": "cumpleanos",
@@ -27,7 +29,39 @@
       "la-mentira-perfecta",
       "charadas-tematicas",
       "encuesta-en-vivo"
-    ]
+    ],
+    "subgrupos": [
+      {
+        "nombre": "Para romper el hielo",
+        "juegos": [
+          "verdad-reto-o-bebe",
+          "el-impostor"
+        ]
+      },
+      {
+        "nombre": "Para subir la energía",
+        "juegos": [
+          "torneo-de-la-noche",
+          "bomba-con-retos"
+        ]
+      },
+      {
+        "nombre": "Con alcohol",
+        "juegos": [
+          "rey-de-copas",
+          "la-mentira-perfecta"
+        ]
+      },
+      {
+        "nombre": "Si hay chicos en la fiesta",
+        "juegos": [
+          "charadas-tematicas",
+          "encuesta-en-vivo"
+        ]
+      }
+    ],
+    "pregunta": "¿Qué juegos son buenos para un cumpleaños?",
+    "respuestaDirecta": "Un cumpleaños mezcla situaciones muy distintas — romper el hielo con gente que recién se conoce, subir la energía a medianoche, o tener algo apto si hay chicos en la mesa. Por eso la selección de acá abajo está organizada según lo que necesites en ese momento, no como una lista única."
   },
   {
     "id": "reunion-familiar",
@@ -49,7 +83,9 @@
       "encadenados",
       "el-imitador",
       "torre-de-retos"
-    ]
+    ],
+    "pregunta": "¿Qué juegos son buenos para una reunión familiar sin alcohol?",
+    "respuestaDirecta": "Para una reunión familiar el criterio es que funcione con varias generaciones a la vez, sin reglas que haya que explicar cinco veces ni preguntas demasiado íntimas para la mesa. Todos los de esta selección son sin alcohol y se apoyan en mímica, dibujo o cultura general, fáciles de sumar a quien se una a mitad de partida."
   },
   {
     "id": "cita",
@@ -64,7 +100,9 @@
       "termometro-de-la-relacion",
       "objetos-con-historia",
       "el-contrato"
-    ]
+    ],
+    "pregunta": "¿Qué juegos son buenos para una cita?",
+    "respuestaDirecta": "No es lo mismo una primera cita que una pareja con años juntos, así que la selección se divide en dos: juegos livianos para romper el hielo si recién se están conociendo, y juegos que profundizan si ya hay confianza. Todos están pensados para dos personas, sin necesidad de más gente ni de materiales."
   },
   {
     "id": "despedida-de-soltero",
@@ -83,7 +121,9 @@
       "ruleta-de-shots",
       "rey-de-copas",
       "maraton-de-tragos"
-    ]
+    ],
+    "pregunta": "¿Qué juegos son buenos para una despedida de soltero o soltera?",
+    "respuestaDirecta": "Una despedida pide juegos con energía alta capaces de sostener una noche entera con un grupo grande de amigos, ronda tras ronda. La mayoría de los de acá abajo tienen alcohol de por medio y funcionan mejor cuanta más gente se sume a la mesa."
   },
   {
     "id": "afterwork",
@@ -102,6 +142,8 @@
       "desafio-fisico-grupal",
       "dibuja-y-adivina",
       "cadena-de-cumplidos"
-    ]
+    ],
+    "pregunta": "¿Qué juegos son buenos para un afterwork o una dinámica de oficina?",
+    "respuestaDirecta": "Para un afterwork el criterio es que funcione con compañeros de distintos niveles de confianza, sin preguntas demasiado personales ni necesidad de alcohol. Estos apuestan más a la agilidad mental y al trabajo en equipo que a la confesión — buenos para romper el hielo sin que nadie se sienta expuesto."
   }
 ]

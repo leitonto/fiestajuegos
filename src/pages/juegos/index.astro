@@ -6,10 +6,15 @@ import { getCollection } from "astro:content";
 
 const juegos = (await getCollection("juegos")).sort((a, b) => a.data.nombre.localeCompare(b.data.nombre));
 const categorias = await getCollection("categorias");
+const ocasiones = await getCollection("ocasiones");
 const nombrePorCategoria = Object.fromEntries(categorias.map((c) => [c.id, c.data.nombre]));
+const nombrePorOcasion = Object.fromEntries(ocasiones.map((o) => [o.id, o.data.nombre]));
 ---
 
-<Layout title="Catálogo completo — 34 juegos de fiesta | FiestaJuegos" description="Los 34 juegos de fiesta de FiestaJuegos, con y sin alcohol, para grupos, parejas y duelos 1v1.">
+<Layout
+  title="Catálogo completo — 34 juegos de fiesta | FiestaJuegos"
+  description="Los 34 juegos de fiesta de FiestaJuegos, con y sin alcohol, para grupos, parejas y duelos 1v1."
+>
   <div class="max-w-4xl mx-auto px-4 py-10">
     <nav class="text-sm text-texto-secundario mb-6" aria-label="Ruta de navegación">
       <a href="/" class="hover:text-texto hover:underline">Inicio</a>
@@ -17,11 +22,40 @@ const nombrePorCategoria = Object.fromEntries(categorias.map((c) => [c.id, c.dat
       <span class="text-texto">Catálogo completo</span>
     </nav>
     <h1 class="font-display font-extrabold text-3xl sm:text-4xl mb-2">Catálogo completo</h1>
-    <p class="text-texto-secundario mb-8">{juegos.length} juegos.</p>
-    <div class="grid sm:grid-cols-2 gap-4">
+    <p id="catalogo-contador" class="text-texto-secundario">{juegos.length} juegos.</p>
+    <p id="catalogo-filtro-activo" class="hidden text-sm mt-1 mb-2">
+      Mostrando juegos para <span id="catalogo-filtro-nombre" class="font-bold"></span> ·
+      <a href="/juegos" class="underline hover:text-texto">ver todos</a>
+    </p>
+    <div class="grid sm:grid-cols-2 gap-4 mt-6" id="catalogo-grid">
       {juegos.map((j) => (
-        <GameCard juego={j} categoriaNombre={nombrePorCategoria[j.data.categoria]} />
+        <div data-ocasiones={j.data.ocasiones.join(",")}>
+          <GameCard juego={j} categoriaNombre={nombrePorCategoria[j.data.categoria]} />
+        </div>
       ))}
     </div>
   </div>
+
+  <script define:vars={{ nombrePorOcasion }}>
+    const params = new URLSearchParams(window.location.search);
+    const ocasionActiva = params.get("ocasion");
+    if (ocasionActiva) {
+      const tarjetas = document.querySelectorAll("#catalogo-grid > div");
+      let visibles = 0;
+      tarjetas.forEach((el) => {
+        const lista = (el.getAttribute("data-ocasiones") || "").split(",");
+        const coincide = lista.includes(ocasionActiva);
+        el.style.display = coincide ? "" : "none";
+        if (coincide) visibles++;
+      });
+      const nombre = nombrePorOcasion[ocasionActiva] || ocasionActiva;
+      const contador = document.getElementById("catalogo-contador");
+      const filtroActivo = document.getElementById("catalogo-filtro-activo");
+      const filtroNombre = document.getElementById("catalogo-filtro-nombre");
+      if (contador) contador.textContent = visibles + " juegos.";
+      if (filtroNombre) filtroNombre.textContent = nombre;
+      if (filtroActivo) filtroActivo.classList.remove("hidden");
+    }
+  </script>
 </Layout>
+

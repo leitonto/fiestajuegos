@@ -38,7 +38,9 @@
     "titulo": "Ruleta de Shots: reglas activas aleatorias para tomar en fiesta",
     "metaDescripcion": "Cómo jugar Ruleta de Shots: reglas que se acumulan durante la noche y que hay que recordar. Ideal como dinámica de fondo.",
     "keywordObjetivo": "ruleta de reglas para tomar en fiesta",
-    "preguntaAIOverview": "¿Qué es un juego de reglas para tomar en una fiesta?"
+    "preguntaAIOverview": "¿Qué es un juego de reglas para tomar en una fiesta?",
+    "gancho": "Reglas que se acumulan toda la noche, y hay que recordarlas",
+    "respuestaDirecta": "Ruleta de Shots genera combinaciones aleatorias de reglas activas (por ejemplo, 'está prohibido decir sí') que se van sumando durante la sesión. Quien rompe una regla activa, toma — funciona mejor como dinámica de fondo, corriendo en paralelo a otros juegos."
   },
   "faq": [
     {

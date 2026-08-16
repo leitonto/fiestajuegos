@@ -43,7 +43,9 @@
     "titulo": "La Mentira Perfecta: juego de bluff y adivinar la respuesta real",
     "metaDescripcion": "Reglas de La Mentira Perfecta: escribí una mentira creíble y descubrí cuál respuesta es la verdadera. Funciona con amigos o desconocidos.",
     "keywordObjetivo": "juego de mentiras y adivinar la verdadera fiesta",
-    "preguntaAIOverview": "¿Cómo se juega a inventar mentiras y adivinar la verdad?"
+    "preguntaAIOverview": "¿Cómo se juega a inventar mentiras y adivinar la verdad?",
+    "gancho": "Una verdad, varias mentiras creíbles: ¿cuál es la real?",
+    "respuestaDirecta": "Se hace una pregunta sobre un jugador: esa persona escribe la verdad en secreto, mientras el resto inventa una respuesta falsa creíble. Se leen todas mezcladas y el grupo vota cuál cree que es la real — suma punto quien adivina la verdadera, y también quien logra que otros crean su mentira."
   },
   "faq": [
     {

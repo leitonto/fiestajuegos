@@ -33,7 +33,9 @@
     "titulo": "Modo Urna: voto secreto con un solo celular para juegos de fiesta",
     "metaDescripcion": "Cómo funciona el Modo Urna: cada jugador responde en privado con un solo celular, sin apps extra ni cuentas.",
     "keywordObjetivo": "voto secreto para juegos de fiesta con un celular",
-    "preguntaAIOverview": "¿Cómo se hace una votación secreta en una fiesta con un solo celular?"
+    "preguntaAIOverview": "¿Cómo se hace una votación secreta en una fiesta con un solo celular?",
+    "gancho": "Un celular, respuestas en privado, revelado sorpresa al final",
+    "respuestaDirecta": "El celular pasa de mano en mano y cada jugador, tapando la pantalla del resto, ingresa su respuesta en privado antes de devolverlo. Nadie ve las respuestas ajenas hasta que la app las revela todas juntas al final, de forma anónima o atribuida según el juego que lo esté usando."
   },
   "faq": [
     {

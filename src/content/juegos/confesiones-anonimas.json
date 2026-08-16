@@ -38,7 +38,9 @@
     "titulo": "Confesiones Anónimas: juego de adivinar anécdotas del grupo",
     "metaDescripcion": "Cómo jugar Confesiones Anónimas: escribí una anécdota en privado y que el grupo adivine de quién es. Sin alcohol, apto para todos.",
     "keywordObjetivo": "juego de confesiones anonimas para grupo",
-    "preguntaAIOverview": "¿Cómo se juega a las confesiones anónimas en grupo?"
+    "preguntaAIOverview": "¿Cómo se juega a las confesiones anónimas en grupo?",
+    "gancho": "Una anécdota sin firma — el grupo intenta adivinar de quién es",
+    "respuestaDirecta": "Cada jugador escribe en privado un dato curioso o anécdota propia, sin firmar, usando Modo Urna. Las confesiones se leen en voz alta una por una y el grupo intenta adivinar de quién es cada una; el autor puede confirmar o mantener el misterio."
   },
   "faq": [
     {

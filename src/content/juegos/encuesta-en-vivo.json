@@ -42,7 +42,9 @@
     "titulo": "Encuesta en Vivo: juego de adivinar quién dijo qué",
     "metaDescripcion": "Cómo jugar Encuesta en Vivo: respondé en privado y adiviná de quién es cada respuesta. Ideal para grupos que ya se conocen.",
     "keywordObjetivo": "juego adivina quien dijo esto fiesta",
-    "preguntaAIOverview": "¿Cómo se juega a adivinar quién dijo qué en un grupo?"
+    "preguntaAIOverview": "¿Cómo se juega a adivinar quién dijo qué en un grupo?",
+    "gancho": "Respuestas anónimas, un grupo que intenta descubrir de quién son",
+    "respuestaDirecta": "Cada jugador responde varias preguntas en privado pasando el celular (Modo Urna), sin que el resto vea. Después, la app muestra una respuesta a la vez y el grupo debe adivinar quién la escribió; quien acierta primero suma un punto."
   },
   "faq": [
     {

@@ -1,0 +1,61 @@
+---
+// src/pages/legal/cookies.astro
+// A diferencia de privacidad.astro y terminos.astro (transcripción literal de
+// legal-fiestajuegos.md §4 y §6), esta página no tenía un texto largo ya redactado
+// en el doc fuente — legal-fiestajuegos.md §5 solo define las 3 categorías y el
+// copy corto del banner. El contenido de abajo organiza esa misma información en
+// formato de página; no inventa política nueva, pero conviene una revisión de
+// Legal antes de publicar (igual que el resto de los documentos legales).
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Política de Cookies | FiestaJuegos" description="Qué cookies y almacenamiento local usa FiestaJuegos, y cómo elegir tus preferencias.">
+  <div class="max-w-2xl mx-auto px-4 py-10">
+    <nav class="text-sm text-texto-secundario mb-6" aria-label="Ruta de navegación">
+      <a href="/" class="hover:text-texto hover:underline">Inicio</a>
+      <span class="mx-1.5">›</span>
+      <span class="text-texto">Política de Cookies</span>
+    </nav>
+
+    <h1 class="font-display font-extrabold text-3xl mb-8">Política de Cookies</h1>
+
+    <div class="space-y-6 leading-relaxed">
+      <p>
+        Usamos almacenamiento local para que el sitio funcione, y (con tu permiso)
+        cookies para entender cómo se usa y mostrar anuncios relevantes. Puedes cambiar
+        tu elección en cualquier momento borrando los datos del sitio en tu navegador.
+      </p>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">Necesarias</h2>
+        <p>
+          Verificación de edad y preferencias de sesión (tema de color, grupo de amigos,
+          historial de partidas), guardadas en <code>localStorage</code> de tu navegador.
+          No requieren tu consentimiento porque son estrictamente necesarias para que el
+          sitio funcione, pero igual te las declaramos acá.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">Analíticas</h2>
+        <p>
+          Nos ayudan a entender, de forma agregada, cómo se usa el sitio (qué páginas se
+          visitan, desde dónde). Requieren tu consentimiento explícito antes de activarse.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">Publicidad</h2>
+        <p>
+          Permiten mostrar anuncios relevantes según tu navegación. Requieren tu
+          consentimiento explícito, por separado del de analíticas.
+        </p>
+      </section>
+
+      <p class="text-sm text-texto-secundario">
+        Para más detalle sobre qué datos recogemos y tus derechos, consultá la
+        <a href="/legal/privacidad" class="underline hover:text-texto">Política de Privacidad</a>.
+      </p>
+    </div>
+  </div>
+</Layout>

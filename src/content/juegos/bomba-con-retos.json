@@ -41,7 +41,9 @@
     "titulo": "Bomba con Retos: el juego de la papa caliente con mini-desafíos",
     "metaDescripcion": "Cómo jugar Bomba con Retos: pasá el celular, cumplí el mini-reto antes de que explote. Reglas y variante combinada con Categorías.",
     "keywordObjetivo": "juego de la bomba con retos para fiesta",
-    "preguntaAIOverview": "¿Cómo se juega el juego de la bomba que explota en las fiestas?"
+    "preguntaAIOverview": "¿Cómo se juega el juego de la bomba que explota en las fiestas?",
+    "gancho": "Un mini-reto antes de pasarla, o te toca cuando explota",
+    "respuestaDirecta": "Un temporizador oculto arranca la cuenta regresiva y el objeto (o el celular simulándolo) pasa de jugador en jugador. Cada uno debe cumplir un mini-reto relámpago antes de poder pasarlo; quien lo tiene en las manos cuando explota, bebe o cumple una prenda."
   },
   "faq": [
     {

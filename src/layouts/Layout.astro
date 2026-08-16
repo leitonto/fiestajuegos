@@ -1,6 +1,9 @@
 ---
 // src/layouts/Layout.astro
 import Icon from "../components/Icon.astro";
+import AgeGate from "../components/AgeGate.astro";
+import CookieBanner from "../components/CookieBanner.astro";
+import Search from "../components/Search.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -27,38 +30,64 @@ const { title, description } = Astro.props;
       rel="stylesheet"
     />
 
-    <!-- Anti-FOUC: fija el modo de color ANTES del primer render, leyendo la
-         misma clave de localStorage que usa el resto del producto (Ideas §5.3,
-         Diseño Visual §9). Deliberadamente NO usa prefers-color-scheme — el modo
-         es una elección de marca, no de accesibilidad del sistema (Diseño Visual §4.3). -->
+    <!-- Anti-FOUC: fija tema, age-gate y banner de cookies ANTES del primer render,
+         leyendo localStorage (Ideas §5.3, Diseño Visual §9, Legal §2 y §5). El tema
+         deliberadamente NO usa prefers-color-scheme — es elección de marca, no de
+         accesibilidad del sistema (Diseño Visual §4.3). -->
     <script is:inline>
       (function () {
         var t = localStorage.getItem("fiestajuegos_theme") || "calido";
         document.documentElement.dataset.theme = t;
+
+        var TREINTA_DIAS_MS = 30 * 24 * 60 * 60 * 1000;
+        var ageRaw = localStorage.getItem("fiestajuegos_age_ok");
+        var ageResuelto = false;
+        if (ageRaw) {
+          try {
+            var age = JSON.parse(ageRaw);
+            // Cualquiera de las dos respuestas (Sí o No) evita volver a preguntar
+            // dentro de los 30 días — bloquear el sitio entero de nuevo tras un "No"
+            // sería justo lo que legal-fiestajuegos.md §2 pide evitar.
+            ageResuelto = Date.now() - age.fecha < TREINTA_DIAS_MS;
+          } catch (e) {}
+        }
+        if (!ageResuelto) {
+          document.documentElement.classList.add("age-gate-pending");
+        }
+
+        if (!localStorage.getItem("fiestajuegos_cookie_consent")) {
+          document.documentElement.classList.add("cookie-banner-pending");
+        }
       })();
     </script>
 
   </head>
 
   <body class="font-body min-h-screen flex flex-col">
+    <AgeGate />
+    <CookieBanner />
+
     <header class="border-b-2 border-borde">
       <div class="max-w-3xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" class="font-display font-extrabold text-xl tracking-tight">
           FiestaJuegos
         </a>
-        <button
-          id="theme-toggle"
-          type="button"
-          aria-label="Cambiar a Modo Fiesta"
-          class="flex items-center justify-center w-10 h-10 rounded-xl border-2 border-borde hover:bg-superficie transition-colors"
-        >
-          <span class="icon-calido"><Icon name="sun" size={20} /></span>
-          <span class="icon-fiesta"><Icon name="bolt" size={20} /></span>
-        </button>
+        <div class="flex items-center gap-2">
+          <Search />
+          <button
+            id="theme-toggle"
+            type="button"
+            aria-label="Cambiar a Modo Fiesta"
+            class="flex items-center justify-center w-10 h-10 rounded-xl border-2 border-borde hover:bg-superficie transition-colors"
+          >
+            <span class="icon-calido"><Icon name="sun" size={20} /></span>
+            <span class="icon-fiesta"><Icon name="bolt" size={20} /></span>
+          </button>
+        </div>
       </div>
     </header>
 
-    <main class="flex-1">
+    <main class="flex-1" data-pagefind-body>
       <slot />
     </main>
 

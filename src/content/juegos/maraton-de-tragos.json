@@ -39,7 +39,9 @@
     "titulo": "Maratón de Tragos: juego de carrera a una meta de sorbos",
     "metaDescripcion": "Cómo jugar Maratón de Tragos: definí una meta y sumá o restá sorbos con cada mini-juego de la noche. Incluye versión sin alcohol.",
     "keywordObjetivo": "juego de carrera de tragos meta para fiesta",
-    "preguntaAIOverview": "¿Qué es un juego de carrera de tragos con meta?"
+    "preguntaAIOverview": "¿Qué es un juego de carrera de tragos con meta?",
+    "gancho": "Una meta de sorbos definida en grupo, y cada mini-juego suma o resta",
+    "respuestaDirecta": "Se define una meta de sorbos al inicio de la sesión, y cada mini-juego jugado durante la noche suma o resta de esa meta según cómo le vaya a cada jugador. El primero en llegar gana (o el último en llegar pierde, en modo 'supervivencia'); existe una versión sin alcohol con fichas en vez de tragos."
   },
   "faq": [
     {

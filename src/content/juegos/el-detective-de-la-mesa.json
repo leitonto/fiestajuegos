@@ -37,7 +37,9 @@
     "titulo": "El Detective de la Mesa: versión familiar del juego del impostor",
     "metaDescripcion": "Cómo jugar El Detective de la Mesa: descubrí quién no conoce la palabra secreta, con pistas simples aptas para chicos.",
     "keywordObjetivo": "juego del impostor para niños y familia",
-    "preguntaAIOverview": "¿Hay una versión de El Impostor apta para niños?"
+    "preguntaAIOverview": "¿Hay una versión de El Impostor apta para niños?",
+    "gancho": "El Impostor, pero con pistas simples y pensado para chicos",
+    "respuestaDirecta": "Sí: El Detective de la Mesa es la versión familiar de El Impostor, con pistas más claras y directas. Todos reciben la misma palabra menos un jugador ('el despistado'), y el grupo vota quién creen que es al final de la ronda de pistas."
   },
   "faq": [
     {

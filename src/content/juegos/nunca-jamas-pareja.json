@@ -39,7 +39,9 @@
     "titulo": "Nunca Jamás para parejas: versión con historial compartido",
     "metaDescripcion": "Reglas de Nunca Jamás en pareja: descubrí cosas del pasado compartido que quizás no sabías. Con banco de frases sugeridas.",
     "keywordObjetivo": "nunca nunca para parejas preguntas",
-    "preguntaAIOverview": "¿Cómo se juega Nunca Nunca en pareja?"
+    "preguntaAIOverview": "¿Cómo se juega Nunca Nunca en pareja?",
+    "gancho": "El clásico Nunca Nunca, pero sobre el historial de la pareja",
+    "respuestaDirecta": "Por turnos, cada uno dice algo que 'nunca ha hecho', enfocado en el pasado compartido de la pareja (no en experiencias genéricas). Si el otro sí lo hizo, bebe o cumple una prenda; si ninguno lo hizo, el turno sigue sin consecuencia."
   },
   "faq": [
     {

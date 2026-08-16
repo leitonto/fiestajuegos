@@ -43,7 +43,9 @@
     "titulo": "El Traductor: cómo explicar una palabra sin decirla (juego para fiesta)",
     "metaDescripcion": "Reglas de El Traductor: hay que lograr que tu equipo adivine la palabra sin decir los términos prohibidos, contrarreloj. Incluye modo familiar y modo picante.",
     "keywordObjetivo": "juego de explicar palabras sin decirlas fiesta",
-    "preguntaAIOverview": "¿Cómo se juega a explicar una palabra sin decirla?"
+    "preguntaAIOverview": "¿Cómo se juega a explicar una palabra sin decirla?",
+    "gancho": "Cómo explicar una palabra sin decirla, contrarreloj y por equipos",
+    "respuestaDirecta": "En parejas o equipos de 2, uno explica una palabra a su compañero sin decir la palabra misma ni los términos prohibidos asociados, contrarreloj. Cada acierto suma un punto; gana el equipo con más puntos al final de la ronda."
   },
   "faq": [
     {

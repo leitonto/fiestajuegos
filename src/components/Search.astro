@@ -1,0 +1,126 @@
+---
+// src/components/Search.astro
+// Pagefind solo indexa el sitio ya compilado (dist/pagefind/) — por eso esto NO
+// funciona con `npm run dev`. Para probarlo local: `npm run build` y después
+// `npm run preview` (que sí sirve desde dist/). En Cloudflare funciona directo,
+// porque ahí siempre se sirve el resultado de `npm run build`.
+import Icon from "./Icon.astro";
+---
+
+<button
+  id="search-abrir"
+  type="button"
+  aria-label="Buscar en el catálogo"
+  class="flex items-center justify-center w-10 h-10 rounded-xl border-2 border-borde hover:bg-superficie transition-colors"
+>
+  <Icon name="search" size={20} />
+</button>
+
+<div id="search-overlay" class="fixed inset-0 z-50 hidden items-start justify-center p-4 pt-20 bg-borde/70">
+  <div class="max-w-lg w-full bg-fondo border-2 border-borde rounded-xl overflow-hidden">
+    <div class="flex items-center gap-2 p-3 border-b-2 border-borde">
+      <Icon name="search" size={18} class="text-texto-secundario flex-shrink-0" />
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Buscar un juego, una ocasión..."
+        autocomplete="off"
+        class="flex-1 bg-transparent outline-none placeholder:text-texto-secundario"
+      />
+      <button id="search-cerrar" type="button" aria-label="Cerrar búsqueda" class="flex-shrink-0">
+        <Icon name="x" size={20} />
+      </button>
+    </div>
+    <div id="search-resultados" class="max-h-96 overflow-y-auto p-2"></div>
+  </div>
+</div>
+
+<script>
+  let pagefind: any = null;
+  let pagefindListo: Promise<void> | null = null;
+
+  // Vite envuelve TODO import() dinámico con su propio helper interno de preload
+  // (__vitePreload), asumiendo que el módulo es parte de su grafo de build — pero
+  // pagefind.js no lo es (lo genera Pagefind DESPUÉS del build de Vite). Ese helper
+  // termina referenciando una variable que nunca se define para este caso
+  // (ReferenceError: __VITE_PRELOAD__ is not defined). @vite-ignore + variable no
+  // alcanza para evitarlo. El escape real: construir el import() dentro de una
+  // función en tiempo de ejecución, para que Vite ni siquiera pueda verlo al
+  // analizar el código fuente.
+  const importarDinamico = new Function("ruta", "return import(ruta)");
+
+  function cargarPagefind() {
+    if (!pagefindListo) {
+      pagefindListo = (async () => {
+        try {
+          pagefind = await importarDinamico("/pagefind/pagefind.js");
+          await pagefind.init();
+        } catch (err) {
+          console.error("Pagefind no cargó:", err);
+          pagefind = null;
+        }
+      })();
+    }
+    return pagefindListo;
+  }
+
+  const overlay = document.getElementById("search-overlay")!;
+  const input = document.getElementById("search-input") as HTMLInputElement;
+  const resultados = document.getElementById("search-resultados")!;
+
+  function abrir() {
+    overlay.classList.remove("hidden");
+    overlay.classList.add("flex");
+    input.value = "";
+    resultados.innerHTML = "";
+    input.focus();
+    cargarPagefind();
+  }
+
+  function cerrar() {
+    overlay.classList.add("hidden");
+    overlay.classList.remove("flex");
+  }
+
+  document.getElementById("search-abrir")?.addEventListener("click", abrir);
+  document.getElementById("search-cerrar")?.addEventListener("click", cerrar);
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) cerrar();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !overlay.classList.contains("hidden")) cerrar();
+  });
+
+  let debounce: ReturnType<typeof setTimeout>;
+  input?.addEventListener("input", () => {
+    clearTimeout(debounce);
+    const consulta = input.value.trim();
+    debounce = setTimeout(async () => {
+      await pagefindListo;
+      if (!pagefind) {
+        resultados.innerHTML =
+          '<p class="p-4 text-sm text-texto-secundario">La búsqueda solo funciona en el sitio publicado (o con <code>npm run preview</code> local, no con <code>npm run dev</code>).</p>';
+        return;
+      }
+      if (!consulta) {
+        resultados.innerHTML = "";
+        return;
+      }
+      const { results } = await pagefind.search(consulta);
+      if (results.length === 0) {
+        resultados.innerHTML = '<p class="p-4 text-sm text-texto-secundario">Sin resultados.</p>';
+        return;
+      }
+      const datos = await Promise.all(results.slice(0, 8).map((r: any) => r.data()));
+      resultados.innerHTML = datos
+        .map(
+          (d: any) => `
+        <a href="${d.url}" class="block p-3 rounded-lg hover:bg-superficie">
+          <p class="font-display font-bold">${d.meta?.title ?? d.url}</p>
+          <p class="text-sm text-texto-secundario mt-0.5">${d.excerpt}</p>
+        </a>`
+        )
+        .join("");
+    }, 150);
+  });
+</script>

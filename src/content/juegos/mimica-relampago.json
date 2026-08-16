@@ -42,7 +42,9 @@
     "titulo": "Mímica Relámpago: reglas para jugar mímica por equipos en fiestas",
     "metaDescripcion": "Cómo jugar Mímica Relámpago: actuá palabras contrarreloj en equipos. Reglas, variantes y consecuencias con y sin alcohol.",
     "keywordObjetivo": "mimica para jugar en fiesta con amigos",
-    "preguntaAIOverview": "¿Cómo se juega la mímica en equipos?"
+    "preguntaAIOverview": "¿Cómo se juega la mímica en equipos?",
+    "gancho": "Actuar sin hablar, adivinar contrarreloj, todo en 30 segundos",
+    "respuestaDirecta": "En equipos, un jugador actúa una palabra o frase sin hablar ni usar objetos, y su equipo debe adivinarla en 30 segundos. Cada acierto suma un punto; si el equipo no adivina a tiempo, el turno pasa al rival o se cumple una consecuencia."
   },
   "faq": [
     {

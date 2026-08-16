@@ -38,7 +38,9 @@
     "titulo": "Trivia Relámpago: preguntas de cultura general para jugar en familia",
     "metaDescripcion": "Cómo jugar Trivia Relámpago: preguntas contrarreloj por equipos, con categorías temáticas y ajuste por edad.",
     "keywordObjetivo": "trivia rapida para jugar en familia",
-    "preguntaAIOverview": "¿Cómo organizar una trivia rápida para jugar en familia?"
+    "preguntaAIOverview": "¿Cómo organizar una trivia rápida para jugar en familia?",
+    "gancho": "Preguntas contrarreloj, por equipos, con categorías para elegir",
+    "respuestaDirecta": "Se forman equipos y se leen preguntas de cultura general con un temporizador corto; el primer equipo en responder bien suma un punto. Existen categorías temáticas (cine, deportes, historia) y un modo ajustado por edad para cuando hay niños en el grupo."
   },
   "faq": [
     {

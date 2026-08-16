@@ -1,0 +1,59 @@
+---
+// src/components/AgeGate.astro
+// legal-fiestajuegos.md §2 — texto exacto. Bloquea TODO el sitio en la primera visita
+// (decisión de Desarrollo, ver plan-cierre-desarrollo-fiestajuegos.md).
+---
+
+<div id="age-gate" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-borde/70">
+  <div class="max-w-sm w-full bg-fondo border-2 border-borde rounded-xl p-6">
+    <h2 class="font-display font-bold text-xl">¿Eres mayor de edad?</h2>
+    <p class="mt-3 text-texto-secundario">
+      FiestaJuegos incluye juegos con alcohol y contenido de pareja de temática íntima
+      para mayores de 18 años, junto con opciones sin alcohol y aptas para todo público.
+      Para ver este contenido, confirma que tienes 18 años o más.
+    </p>
+    <div class="mt-5 flex flex-col gap-2">
+      <button
+        id="age-gate-si"
+        type="button"
+        class="w-full bg-primario text-white font-bold py-3 rounded-xl hover:opacity-90 transition-opacity"
+      >
+        Sí, soy mayor de 18
+      </button>
+      <button
+        id="age-gate-no"
+        type="button"
+        class="w-full border-2 border-borde font-bold py-3 rounded-xl hover:bg-superficie transition-colors"
+      >
+        No / Prefiero no decir
+      </button>
+    </div>
+    <p class="mt-4 text-xs text-texto-secundario">
+      Bebe con responsabilidad. Este sitio no vende alcohol ni promueve su consumo excesivo.
+    </p>
+  </div>
+</div>
+
+<script>
+  const CLAVE = "fiestajuegos_age_ok";
+  const DIAS_EXPIRACION = 30;
+
+  function marcarResuelto() {
+    document.documentElement.classList.remove("age-gate-pending");
+  }
+
+  document.getElementById("age-gate-si")?.addEventListener("click", () => {
+    localStorage.setItem(CLAVE, JSON.stringify({ ok: true, fecha: Date.now() }));
+    marcarResuelto();
+  });
+
+  document.getElementById("age-gate-no")?.addEventListener("click", () => {
+    // legal-fiestajuegos.md §2: responder "No" no debe bloquear el sitio entero.
+    // Guardamos la misma marca de tiempo que "Sí" (el anti-FOUC del Layout solo
+    // chequea "¿hay una respuesta en los últimos 30 días?", no cuál fue) para no
+    // volver a interrumpir en cada página — eso sí sería bloquear el sitio entero.
+    localStorage.setItem(CLAVE, JSON.stringify({ ok: false, fecha: Date.now() }));
+    marcarResuelto();
+    window.location.href = "/categoria/familiares";
+  });
+</script>

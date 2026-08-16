@@ -40,7 +40,9 @@
     "titulo": "Rey de Copas: reglas del clásico juego de cartas para beber",
     "metaDescripcion": "Reglas completas de Rey de Copas: qué significa cada carta, cómo funciona el vaso central y variantes para tu grupo.",
     "keywordObjetivo": "rey de copas juego de cartas para beber reglas",
-    "preguntaAIOverview": "¿Cómo se juega Rey de Copas con cartas?"
+    "preguntaAIOverview": "¿Cómo se juega Rey de Copas con cartas?",
+    "gancho": "Cada carta, una regla — el mazo entero define la noche",
+    "respuestaDirecta": "Las cartas se reparten boca abajo y, por turnos, cada jugador saca una y cumple la regla asignada a esa carta (por ejemplo, As reparte una cascada de tragos, Rey crea una regla nueva). El juego termina cuando se agota el mazo."
   },
   "faq": [
     {

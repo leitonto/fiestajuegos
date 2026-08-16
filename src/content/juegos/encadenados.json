@@ -42,7 +42,9 @@
     "titulo": "Encadenados: juego de palabras en cadena para jugar en grupo",
     "metaDescripcion": "Cómo jugar Encadenados: reglas del juego de palabras por categoría y última letra, con variantes para subir la dificultad.",
     "keywordObjetivo": "juego de palabras encadenadas para fiesta",
-    "preguntaAIOverview": "¿Cómo se juega el juego de las palabras encadenadas?"
+    "preguntaAIOverview": "¿Cómo se juega el juego de las palabras encadenadas?",
+    "gancho": "Una palabra lleva a la siguiente — literalmente, por su última letra",
+    "respuestaDirecta": "Se define una categoría de palabras y cada jugador debe decir una que empiece con la última letra de la palabra anterior. Quien duda demasiado, repite una palabra o rompe la categoría, bebe o cumple una prenda."
   },
   "faq": [
     {

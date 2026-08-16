@@ -37,7 +37,9 @@
     "titulo": "Objetos con Historia: juego de conversación para parejas",
     "metaDescripcion": "Cómo jugar Objetos con Historia: recuerden juntos la historia de un objeto compartido. Ideal para aniversarios y citas.",
     "keywordObjetivo": "juego de conversacion para parejas recordar momentos",
-    "preguntaAIOverview": "¿Qué juegos de conversación hay para parejas sin alcohol?"
+    "preguntaAIOverview": "¿Qué juegos de conversación hay para parejas sin alcohol?",
+    "gancho": "Recordar juntos la historia de un objeto compartido",
+    "respuestaDirecta": "Objetos con Historia es un juego de conversación sin alcohol donde uno de los dos cuenta la historia de un objeto que tienen en común, dentro de un tiempo límite, y el otro suma un detalle que recuerde. Funciona bien como cierre para aniversarios o citas."
   },
   "faq": [
     {

@@ -72,6 +72,15 @@ const ocasiones = defineCollection({
     icono: z.string(),                 // nombre de ícono Tabler, ej. "ti-cake"
     keywordPilar: z.string(),
     juegosAncla: z.array(z.string()),  // ids de la colección `juegos`
+    // Curación en subgrupos temáticos (Marketing §4.1) — hoy solo Cumpleaños la usa
+    // (top 8 en 4 subgrupos de 2). Las demás ocasiones no tienen este campo y la
+    // página de ocasión cae de vuelta a la grilla plana de `juegosAncla`.
+    subgrupos: z.array(z.object({
+      nombre: z.string(),
+      juegos: z.array(z.string()),
+    })).optional(),
+    // Mismo gap que seo.gancho/respuestaDirecta en `juegos` — Marketing §5.4 pide una
+    // pregunta + respuesta directa por página de ocasión, nunca se redactaron las 6.
     pregunta: z.string().optional(),
     respuestaDirecta: z.string().optional(),
   }),

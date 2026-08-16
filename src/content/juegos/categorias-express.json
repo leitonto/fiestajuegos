@@ -40,7 +40,9 @@
     "titulo": "Categorías Express: el juego de palabras contrarreloj para fiestas",
     "metaDescripcion": "Reglas de Categorías Express: nombrá ítems sin repetir antes de que se acabe el tiempo. Con y sin alcohol, para grupos de 3 a 12.",
     "keywordObjetivo": "juego de categorias para beber",
-    "preguntaAIOverview": "¿Cómo se juega el juego de categorías?"
+    "preguntaAIOverview": "¿Cómo se juega el juego de categorías?",
+    "gancho": "Nombrá rápido, sin repetir, antes de que se acabe el tiempo",
+    "respuestaDirecta": "Se elige una categoría (países, frutas, series) y, por turnos, cada jugador nombra un ítem sin repetir uno ya dicho. Quien duda, repite o se sale de la categoría dentro del tiempo límite, bebe o cumple una prenda."
   },
   "faq": [
     {

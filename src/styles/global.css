@@ -70,3 +70,13 @@ body {
   outline: 3px solid var(--color-primario);
   outline-offset: 2px;
 }
+
+/* Age-gate y banner de cookies: ocultos por default, visibles solo mientras el
+   html tenga la clase "pendiente" correspondiente (se decide en el script anti-FOUC
+   del Layout, antes del primer render, igual que el tema). */
+#age-gate { display: none; }
+.age-gate-pending #age-gate { display: flex; }
+
+#cookie-banner { display: none; }
+.cookie-banner-pending:not(.age-gate-pending) #cookie-banner { display: block; }
+

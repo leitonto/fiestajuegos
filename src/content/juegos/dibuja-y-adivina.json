@@ -39,7 +39,9 @@
     "titulo": "Dibuja y Adivina: juego de dibujo por equipos para toda la familia",
     "metaDescripcion": "Cómo jugar Dibuja y Adivina: dibujá la palabra sin letras ni números y que tu equipo la adivine a tiempo.",
     "keywordObjetivo": "juego de dibujar y adivinar para familia",
-    "preguntaAIOverview": "¿Cómo se juega a dibujar y adivinar en equipos?"
+    "preguntaAIOverview": "¿Cómo se juega a dibujar y adivinar en equipos?",
+    "gancho": "Papel, lápiz, y un equipo tratando de adivinar a tiempo",
+    "respuestaDirecta": "Un integrante del equipo dibuja una palabra del banco sin usar letras ni números, y el resto debe adivinarla dentro del tiempo límite. Se suman puntos por cada acierto y el rol de dibujante rota en cada turno."
   },
   "faq": [
     {

@@ -38,7 +38,9 @@
     "titulo": "Charadas Temáticas: mímica por equipos para toda la familia",
     "metaDescripcion": "Cómo jugar Charadas Temáticas: mazos por categoría (películas, animales, fechas especiales) para jugar en familia.",
     "keywordObjetivo": "charadas para toda la familia temas",
-    "preguntaAIOverview": "¿Qué son las charadas y cómo se juegan en familia?"
+    "preguntaAIOverview": "¿Qué son las charadas y cómo se juegan en familia?",
+    "gancho": "Actuar sin hablar, con mazos temáticos para toda la familia",
+    "respuestaDirecta": "Las charadas son un juego de mímica por equipos: un jugador actúa una palabra o concepto de un mazo temático (animales, películas, Navidad) sin hablar, y su equipo debe adivinarla a tiempo. Suman puntos por acierto y gana el equipo con más puntos al final."
   },
   "faq": [
     {

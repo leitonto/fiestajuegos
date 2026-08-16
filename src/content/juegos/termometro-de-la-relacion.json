@@ -38,7 +38,9 @@
     "titulo": "Termómetro de la Relación: juego de compatibilidad para parejas",
     "metaDescripcion": "Cómo jugar Termómetro de la Relación: posiciónense en situaciones hipotéticas y descubran qué tan de acuerdo están.",
     "keywordObjetivo": "juego de compatibilidad para parejas preguntas",
-    "preguntaAIOverview": "¿Cómo saber si una pareja piensa parecido en situaciones hipotéticas?"
+    "preguntaAIOverview": "¿Cómo saber si una pareja piensa parecido en situaciones hipotéticas?",
+    "gancho": "Se posicionan en una escala y descubren qué tan de acuerdo están",
+    "respuestaDirecta": "Se presenta una situación hipotética y ambos se posicionan en una escala (de acuerdo a en desacuerdo) sin ver la posición del otro. Al revelar, comparan qué tan lejos están entre sí — las diferencias grandes suelen abrir una buena conversación."
   },
   "faq": [
     {

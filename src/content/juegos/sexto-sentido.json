@@ -46,7 +46,9 @@
     "titulo": "Sexto Sentido: el juego de fiesta para ordenarse en silencio, sin hablar",
     "metaDescripcion": "Cómo jugar Sexto Sentido: hay que ordenarse en silencio siguiendo la intuición del grupo. Incluye versión con tragos y versión familiar con ranking secreto.",
     "keywordObjetivo": "juego sin hablar para beber en grupo",
-    "preguntaAIOverview": "¿Cómo se juega un juego de fiesta en silencio, sin hablar?"
+    "preguntaAIOverview": "¿Cómo se juega un juego de fiesta en silencio, sin hablar?",
+    "gancho": "El juego que pone a prueba qué tan conectado está tu grupo",
+    "respuestaDirecta": "Cada jugador recibe un número secreto (o una posición secreta en un ranking, en la versión sin alcohol) y el grupo debe jugarlos en orden ascendente, sin hablar ni hacer señas. Si alguien se adelanta, se rompe la secuencia y hay penalización grupal — solo vale la intuición colectiva."
   },
   "faq": [
     {

@@ -42,7 +42,9 @@
     "titulo": "El Rumor: teléfono descompuesto con retos para fiestas",
     "metaDescripcion": "Reglas de El Rumor: transmití un reto en cadena sin que se distorsione. Variantes de mímica y susurro para tu grupo.",
     "keywordObjetivo": "juego telefono descompuesto para fiesta con retos",
-    "preguntaAIOverview": "¿Cómo se juega el teléfono descompuesto con retos?"
+    "preguntaAIOverview": "¿Cómo se juega el teléfono descompuesto con retos?",
+    "gancho": "Un reto que viaja de boca en boca — y casi nunca llega igual",
+    "respuestaDirecta": "El primer jugador recibe un reto en privado y debe transmitirlo por mímica (o susurro) al siguiente, en cadena, hasta el último. Si el mensaje se distorsiona demasiado respecto al original, todo el grupo bebe o cumple una prenda."
   },
   "faq": [
     {

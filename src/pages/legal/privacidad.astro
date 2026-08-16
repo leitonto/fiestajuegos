@@ -1,0 +1,84 @@
+---
+// src/pages/legal/privacidad.astro
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Política de Privacidad | FiestaJuegos" description="Política de privacidad de FiestaJuegos: qué datos recogemos, base legal, y tus derechos.">
+  <div class="max-w-2xl mx-auto px-4 py-10">
+    <nav class="text-sm text-texto-secundario mb-6" aria-label="Ruta de navegación">
+      <a href="/" class="hover:text-texto hover:underline">Inicio</a>
+      <span class="mx-1.5">›</span>
+      <span class="text-texto">Política de Privacidad</span>
+    </nav>
+
+    <h1 class="font-display font-extrabold text-3xl mb-2">Política de Privacidad</h1>
+    <p class="text-sm text-texto-secundario mb-8">
+      Última actualización: <span class="bg-neutro/30 px-1">[fecha]</span>
+    </p>
+
+    <div class="space-y-6 leading-relaxed">
+      <section>
+        <h2 class="font-bold text-lg mb-2">1. Responsable del tratamiento</h2>
+        <p>
+          <span class="bg-neutro/30 px-1">[Nombre/razón social]</span>, con domicilio en
+          Ecuador, es responsable de FiestaJuegos (<span class="bg-neutro/30 px-1">[dominio]</span>).
+          Contacto: <span class="bg-neutro/30 px-1">[email]</span>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">2. Qué datos recogemos</h2>
+        <ul class="list-disc pl-5 space-y-2">
+          <li>
+            <strong>Datos de uso del juego</strong> (grupo de amigos, historial de partidas,
+            última configuración): se guardan únicamente en tu navegador (<code>localStorage</code>),
+            nunca se envían a nuestros servidores ni los almacenamos nosotros.
+          </li>
+          <li>
+            <strong>Datos analíticos (si aplica):</strong> usamos [Google Analytics u otra
+            herramienta] para entender el uso agregado del sitio, mediante cookies que
+            requieren tu consentimiento previo.
+          </li>
+          <li>
+            <strong>Publicidad (si aplica):</strong> usamos [Google AdSense] para mostrar
+            anuncios, que puede usar cookies para personalización, sujeto a tu
+            consentimiento previo.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">3. Base legal</h2>
+        <p>
+          Tratamos datos conforme al RGPD/ePrivacy (para personas usuarias en la Unión
+          Europea) y a la Ley Orgánica de Protección de Datos Personales de Ecuador —
+          LOPDP (por el domicilio del responsable), que exige consentimiento libre,
+          específico e informado para cualquier tratamiento no estrictamente necesario.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">4. Tus derechos</h2>
+        <p>
+          Puedes ejercer tus derechos de acceso, rectificación, cancelación, oposición y
+          portabilidad escribiendo a <span class="bg-neutro/30 px-1">[email]</span>. Como
+          no manejamos cuentas de usuario, la mayoría de tus datos de juego nunca salen
+          de tu dispositivo y puedes borrarlos limpiando los datos de tu navegador.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">5. Menores de edad</h2>
+        <p>
+          El sitio tiene un control de edad de autodeclaración para el contenido con
+          alcohol. No recogemos intencionalmente datos identificables de menores de edad.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-bold text-lg mb-2">6. Cambios</h2>
+        <p>Podemos actualizar esta política; los cambios relevantes se anunciarán en el sitio.</p>
+      </section>
+    </div>
+  </div>
+</Layout>

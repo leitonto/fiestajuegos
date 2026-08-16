@@ -18,22 +18,29 @@ const d = ocasion.data;
 const todosJuegos = await getCollection("juegos");
 const categorias = await getCollection("categorias");
 const nombrePorCategoria = Object.fromEntries(categorias.map((c) => [c.id, c.data.nombre]));
+const buscarJuego = (slug: string) => todosJuegos.find((j) => j.id === slug);
 const juegosDeEstaOcasion = d.juegosAncla
-  .map((slug) => todosJuegos.find((j) => j.id === slug))
+  .map(buscarJuego)
   .filter((j): j is NonNullable<typeof j> => j !== undefined);
 const totalJuegos = todosJuegos.length;
 ---
 
-<Layout title={`Juegos para ${d.nombre} | FiestaJuegos`} description={`${juegosDeEstaOcasion.length} juegos de fiesta ideales para ${d.nombre.toLowerCase()}. ${d.keywordPilar}, con y sin alcohol.`}>
+<Layout
+  title={`Juegos para ${d.nombre} | FiestaJuegos`}
+  description={`${juegosDeEstaOcasion.length} juegos de fiesta ideales para ${d.nombre.toLowerCase()}. ${d.keywordPilar}, con y sin alcohol.`}
+>
   <div class="max-w-4xl mx-auto px-4 py-10">
+    <!-- 1. Breadcrumb -->
     <nav class="text-sm text-texto-secundario mb-6" aria-label="Ruta de navegación">
       <a href="/" class="hover:text-texto hover:underline">Inicio</a>
       <span class="mx-1.5">›</span>
       <span class="text-texto">{d.nombre}</span>
     </nav>
 
+    <!-- 2. H1 (+ gancho si existe) -->
     <h1 class="font-display font-extrabold text-3xl sm:text-4xl">Juegos para {d.nombre.toLowerCase()}</h1>
 
+    <!-- 3. H2 = pregunta + respuesta directa (si existen los datos) -->
     {d.pregunta && (
       <section class="mt-6">
         <h2 class="font-display font-bold text-2xl">{d.pregunta}</h2>
@@ -41,14 +48,32 @@ const totalJuegos = todosJuegos.length;
       </section>
     )}
 
-    <div class="mt-10 grid sm:grid-cols-2 gap-4">
-      {juegosDeEstaOcasion.map((j) => (
-        <GameCard juego={j} categoriaNombre={nombrePorCategoria[j.data.categoria]} />
-      ))}
-    </div>
+    <!-- 4. Curado: subgrupos temáticos si existen (hoy solo Cumpleaños, Marketing §4.1),
+         si no, la grilla plana de juegos ancla (las otras 5 ocasiones) -->
+    {d.subgrupos ? (
+      <div class="mt-10 space-y-8">
+        {d.subgrupos.map((sub) => (
+          <div>
+            <h3 class="font-bold text-secundario uppercase tracking-wide text-sm mb-3">{sub.nombre}</h3>
+            <div class="grid sm:grid-cols-2 gap-4">
+              {sub.juegos.map(buscarJuego).filter((j): j is NonNullable<typeof j> => j !== undefined).map((j) => (
+                <GameCard juego={j} categoriaNombre={nombrePorCategoria[j.data.categoria]} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="mt-10 grid sm:grid-cols-2 gap-4">
+        {juegosDeEstaOcasion.map((j) => (
+          <GameCard juego={j} categoriaNombre={nombrePorCategoria[j.data.categoria]} />
+        ))}
+      </div>
+    )}
 
+    <!-- 5. Link a catálogo completo, filtrado por esta ocasión -->
     <p class="mt-10 text-center">
-      <a href="/juegos" class="underline text-texto-secundario hover:text-texto">
+      <a href={`/juegos?ocasion=${ocasion.id}`} class="underline text-texto-secundario hover:text-texto">
         Ver los {totalJuegos} juegos del catálogo completo
       </a>
     </p>

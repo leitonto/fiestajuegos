@@ -40,7 +40,9 @@
     "titulo": "Torre de Retos: torre de bloques apilables con desafíos para fiesta",
     "metaDescripcion": "Cómo jugar Torre de Retos: cada bloque que se retira de la torre tiene un desafío asignado. Quien la tira cumple la consecuencia mayor.",
     "keywordObjetivo": "torre de bloques con retos para fiesta",
-    "preguntaAIOverview": "¿Cómo se juega con una torre de bloques y retos en una fiesta?"
+    "preguntaAIOverview": "¿Cómo se juega con una torre de bloques y retos en una fiesta?",
+    "gancho": "Cada bloque, un desafío — y quien tira la torre, paga caro",
+    "respuestaDirecta": "Cada bloque de la torre tiene asignado un reto o regla; por turnos, cada jugador retira un bloque, cumple el desafío correspondiente y lo coloca arriba. Quien hace caer la torre cumple una consecuencia mayor a la de un bloque normal."
   },
   "faq": [
     {

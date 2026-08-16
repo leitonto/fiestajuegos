@@ -38,7 +38,9 @@
     "titulo": "El Contrato: reglas secretas para parejas en una fiesta",
     "metaDescripcion": "Cómo jugar El Contrato: pacten una regla activa que dura toda la noche. Con y sin alcohol, fácil de adaptar.",
     "keywordObjetivo": "reglas secretas para parejas en fiesta juego",
-    "preguntaAIOverview": "¿Qué es un juego de reglas secretas para parejas en una fiesta?"
+    "preguntaAIOverview": "¿Qué es un juego de reglas secretas para parejas en una fiesta?",
+    "gancho": "Una regla secreta, pactada entre dos, vigente toda la noche",
+    "respuestaDirecta": "El Contrato es un juego donde la pareja pacta en privado una o más reglas activas antes de empezar la noche (ej. 'cada vez que uno diga cierta palabra, el otro toma un trago'). La regla queda vigente el resto del evento, y ambos deben estar de acuerdo antes de activarla."
   },
   "faq": [
     {

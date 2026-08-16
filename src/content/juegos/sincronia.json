@@ -40,7 +40,9 @@
     "titulo": "Sincronía: juego para parejas de adivinar si coinciden",
     "metaDescripcion": "Cómo jugar Sincronía en pareja: respondan por separado y descubran si piensan igual. Ideal para citas y aniversarios.",
     "keywordObjetivo": "juego para parejas adivinar si coinciden",
-    "preguntaAIOverview": "¿Qué juegos hay para saber si una pareja piensa igual?"
+    "preguntaAIOverview": "¿Qué juegos hay para saber si una pareja piensa igual?",
+    "gancho": "Respondan por separado y descubran si piensan igual",
+    "respuestaDirecta": "Sincronía es un juego para parejas donde ambos responden por separado una pregunta sobre el otro, sin ver la respuesta ajena, y luego las revelan juntas. Si coinciden, ganan la ronda; si no, cumplen una prenda pactada de antemano."
   },
   "faq": [
     {

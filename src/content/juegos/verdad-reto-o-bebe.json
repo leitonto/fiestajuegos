@@ -44,7 +44,9 @@
     "titulo": "Verdad, Reto o Bebe: cómo jugar + preguntas y retos por intensidad",
     "metaDescripcion": "Reglas de Verdad, Reto o Bebe para tu fiesta: cómo jugar, preguntas y retos filtrables por intensidad, con y sin alcohol. Para grupos de 3 a 15.",
     "keywordObjetivo": "verdad reto o bebe preguntas",
-    "preguntaAIOverview": "¿Cómo se juega Verdad, Reto o Bebe?"
+    "preguntaAIOverview": "¿Cómo se juega Verdad, Reto o Bebe?",
+    "gancho": "El clásico de toda fiesta, con banco de preguntas y retos por intensidad",
+    "respuestaDirecta": "Por turnos, cada jugador elige entre Verdad (responder con honestidad), Reto (cumplir un desafío) o Bebe (evitar ambos con un trago o una prenda). Las preguntas y retos salen de un banco filtrable por intensidad — Suave, Normal o Picante — y el turno sigue rotando hasta que el grupo decide parar."
   },
   "faq": [
     {
